@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<TITLE>
+		בְּרֵאשִׁית
+	</TITLE>
+</HEAD>
+<BODY>
+	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>
+
+	<TABLE CELLPADDING="4" CELLSPACING="4" WIDTH="100%">
+	<TR>
+		<TD class=h WIDTH="50%" dir="rtl">
+			<A NAME="1"> </A>
+			<B>א</B>  <BIG>בְּ</BIG> רֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ.
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			בָּרָא
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			אֱלֹהִים,
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			אֵת
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			הַשָּׁמַיִם
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			הַשָּׁמַיִם,
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			וְאֵת
+		</TD>
+		<TD class=h WIDTH="50%" dir="rtl">
+			הָאָרֶץ
+		</TD>		
+		<TD class=m>
+			<B>1</B> In the beginning God created the heaven and the earth.
+		</TD>
+	</TR>
+
+	</TABLE>
+	<A NAME="32"> </A>
+
+	</BODY>
+</HTML>
