@@ -3,3 +3,6 @@
 TD {vertical-align:top;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
 TD.h {vertical-align:top;direction:rtl;unicode-bidi:embed;text-align:right;font-size:165%;font-family:David;}
 TD.m {vertical-align:middle;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
+
+/* each word takes 14% of the space */
+div { float:right; width:14%; }
