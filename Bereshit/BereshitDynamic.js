@@ -4,7 +4,7 @@
       return false;
     }
 
-    if(idElement==1){
+    if( idElement == 1 ){
         document.getElementById('bereshit').innerHTML ='In the begining';
         return false;
     }
