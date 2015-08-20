@@ -5,4 +5,4 @@ TD.h {vertical-align:top;direction:rtl;unicode-bidi:embed;text-align:right;font-
 TD.m {vertical-align:middle;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
 
 /* each word takes 14% of the space */
-div { float:right; width:14%; }
+div.bereshit1one { float:right; width:14%; font-size:165%;font-family:David;}

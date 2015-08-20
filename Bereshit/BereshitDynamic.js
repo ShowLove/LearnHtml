@@ -45,6 +45,7 @@
       document.getElementById('haaretz').innerHTML ='the earth';
       return false;}
 
+
  }
 
 $(document).ready(main);
