@@ -22,28 +22,29 @@
       document.getElementById('haaretz').innerHTML ='הָאָרֶץ';
       return false;}
 
-      //Hebrew --> English
-    if( idElement == 1 ){
-        document.getElementById('bereshit').innerHTML ='In the begining';
-        return false;}
-    if( idElement == 2 ){
-        document.getElementById('bara').innerHTML ='created';
-        return false;}
-    if( idElement == 3 ){
-        document.getElementById('Elohim').innerHTML ='Elohim';
-        return false;}
-    if( idElement == 4 ){
-        document.getElementById('et').innerHTML ='אֵת';
-        return false;}
-    if( idElement == 5 ){
-        document.getElementById('hashamaim').innerHTML ='the heavens';
-        return false;}
-    if( idElement == 6 ){
-        document.getElementById('veet').innerHTML ='and אֵת';
-        return false;}
-    if( idElement == 7 ){
-        document.getElementById('haaretz').innerHTML ='the earth';
-        return false;}
+    //Hebrew --> English
+    if( idElement == 1   &&  document.getElementById('bereshit').innerHTML == "בְּרֵאשִׁית"){
+      document.getElementById('bereshit').innerHTML ='In the begining';
+      return false;}
+    if( idElement == 2  &&  document.getElementById('bara').innerHTML == "בָּרָא"){
+      document.getElementById('bara').innerHTML ='created';
+      return false;}
+    if( idElement == 3  &&  document.getElementById('Elohim').innerHTML == "אֱלֹהִים,"){
+      document.getElementById('Elohim').innerHTML ='Elohim';
+      return false;}
+    if( idElement == 4  &&  document.getElementById('et').innerHTML == "אֵת"){
+      document.getElementById('et').innerHTML ='אֵת';
+      return false;}
+    if( idElement == 5  &&  document.getElementById('hashamaim').innerHTML == "הַשָּׁמַיִם"){
+      document.getElementById('hashamaim').innerHTML ='the heavens';
+      return false;}
+    if( idElement == 6  &&  document.getElementById('veet').innerHTML == "וְאֵת"){
+      document.getElementById('veet').innerHTML ='and אֵת';
+      return false;}
+    if( idElement == 7  &&  document.getElementById('haaretz').innerHTML == "הָאָרֶץ"){
+      document.getElementById('haaretz').innerHTML ='the earth';
+      return false;}
+
  }
 
 $(document).ready(main);
