@@ -15,13 +15,16 @@ write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/Beres
 for var_list in lines_list:
 	#tric for splitin a string to a list of words
 	word_list = var_list.split()
+	#get number of words in this verse
+	#not including C:V and starting on 0 index
+	num_words = len(word_list) - 1
 
 	for index, word in enumerate(word_list):
 		write_file.write(word+"("+str(index)+")")
 		#manipulate char by char withinin the present line of data
 
 	#exit inner for loop		
-	write_file.write("\n")
+	write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
 
 # Close the FILE object in PYTHON
 write_file.close
