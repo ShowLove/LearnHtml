@@ -1,4 +1,6 @@
  function changeText(idElement) {
+//Bereshit 1:1
+
     //English --> Hebrew
     if( idElement == 1   &&  document.getElementById('bereshit').innerHTML == "In the begining"){
       document.getElementById('bereshit').innerHTML ='בְּרֵאשִׁית';
@@ -44,8 +46,6 @@
     if( idElement == 7  &&  document.getElementById('haaretz').innerHTML == "הָאָרֶץ"){
       document.getElementById('haaretz').innerHTML ='the earth';
       return false;}
-
-
  }
 
 $(document).ready(main);
