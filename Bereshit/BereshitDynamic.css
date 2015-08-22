@@ -14,5 +14,5 @@
 		float:right; width:10%; text-align:right; font-size:100%;font-family:David; padding:5px;}
 
 	/* each word takes 14% of the space */
-	div.Transliteration_n_Strongs div { display:inline-block;
+	div.English_n_Strongs div { display:inline-block;
 		float:right; width:10%; text-align:right; font-size:100%;font-family:David; padding:5px;}

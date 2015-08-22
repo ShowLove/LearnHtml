@@ -61,16 +61,17 @@
       document.getElementById('veet').innerHTML ='וְאֵת';
       document.getElementById('haaretz').innerHTML ='הָאָרֶץ';
       return false;}
+     
 
-    //Hebrew --> Transliteration
+    //Hebrew --> Transliteration && Strongs --> English
     if( idElement == 2){
       document.getElementById('bereshit').innerHTML ="bê'rey'shit";
-      document.getElementById('bara').innerHTML ='created';
-      document.getElementById('Elohim').innerHTML ='Elohim';
-      document.getElementById('et').innerHTML ='אֵת';
-      document.getElementById('hashamaim').innerHTML ='the heavens';
-      document.getElementById('veet').innerHTML ='and אֵת';
-      document.getElementById('haaretz').innerHTML ='the earth';
+      document.getElementById('bara').innerHTML ="ba'ra";
+      document.getElementById('Elohim').innerHTML ="e'lo'him";
+      document.getElementById('et').innerHTML ="eyt";
+      document.getElementById('hashamaim').innerHTML ="ha'sha'ma'yim";
+      document.getElementById('veet').innerHTML ="wê'eyt";
+      document.getElementById('haaretz').innerHTML ="ha'a'rets";
       return false;}
  }//endchangeChapterLang
 
