@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 #function that writes the header info for the html file
+	write_file.write(''+"\n")
 def writeheader( ):
 	write_file.write('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">'+"\n")
 	write_file.write('<HTML>'+"\n")
@@ -17,7 +18,16 @@ def writeheader( ):
 	write_file.write('		<div onclick="javascript:changeChapterLang(2); return false;">English</div>'+"\n")
 	write_file.write('	</div>'+"\n")
 	write_file.write('	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>'+"\n")
-	write_file.write(''+"\n")
+	write_file.write(''+"\n\n")
+
+def write_verse_shell( ):
+	write_file.write('	<div class="eight_w_verses" style="width:100%; float:right;">'+"\n")
+
+def write_ch_v_div( ):
+	write_file.write('			<div class="chapterverse"> <strong>{בְּרֵאשִׁית}</strong> </div>'+"\n")
+
+def write_verse_div( engw, num, hebrew )
+
 
 ##########################################################################
 
