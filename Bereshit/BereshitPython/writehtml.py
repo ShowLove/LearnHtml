@@ -26,8 +26,9 @@ def write_verse_shell( ):
 def write_ch_v_div( ):
 	write_file.write('			<div class="chapterverse"> <strong>{בְּרֵאשִׁית}</strong> </div>'+"\n")
 
-def write_verse_div( engw, num, hebrew )
-
+def write_verse_div_l1( v_id,  word_num, page_text):
+	write_file.write('		<div id="' + v_id + '" style="text-align:right;"'+"\n")
+	write_file.write('			onclick="javascript:changeWordLang('+word_num+'); return false;">'+page_text+'</div>'+"\n")
 
 ##########################################################################
 

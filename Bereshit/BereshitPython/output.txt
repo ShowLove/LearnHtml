@@ -1,88 +1,57 @@
-1:1(0)in~SUMMIT(1)2363(2)בְּרֵאשִׁית(3)bê'rey'shit(4)he~did~FATTEN(V)(5)232(6)בָּרָּא(7)ba'ra1(8)Elohiym(9)POWER~s(10)אֱלֹהִׁים(11)e'lo'him(12)AT(13)85(14)אֵת(15)eyt(16)the~SKY(17)2512~s2(18)הַשָּמַיִׁם(19)ha'sha'ma'yim(20)and~AT(21)85(22)וְּאֵת(23)wê'eyt(24)the~LAND(25)2331(26)הָּאָרֶץ(27)ha'a'rets(28)NumWordsInVerse(28)
-1:2(0)and~the~LAND(1)2331(2)וְּהָּאָרֶץ(3)wê'ha'a'rets(4)she~did~EXIST(V)(5)505(6)הָּיְּתָּה(7)hai'tah(8)CONFUSION(9)2623(10)תֹהוּ(11)to'hu(12)and~UNFILLED(13)106(14)וָּבֹהוּ(15)wa'vo'hu(16)and~DARKNESS(17)2439(18)וְּחֹשֶךְ(19)wê'hho'shekh(20)UPON(21)1616(22)עַל(23)al(24)FACE(25)1815~s(26)פְּנֵי(27)pê'ney(28)DEEP.SEA(29)522(30)תְּהוֹם(31)tê'hom(32)and~WIND(33)2251(34)וְּרוּחַַ(35)wê'ru'ahh(36)Elohiym(37)POWER~s(38)אֱלֹהִׁים(39)e'lo'him(40)much~FLUTTER(V)(41)787~ing(fs)(42)מְּרַחֶפֶת(43)mê'ra'hhe'phet(44)UPON(45)1616(46)עַל(47)al(48)FACE(49)1815~s(50)פְּנֵי(51)pê'ney(52)the~WATER(53)1162~s2(54)הַמָּיִׁם(55)ha'ma'yim(56)NumWordsInVerse(56)
-1:3(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)he~will~EXIST(V)(9)505(10)יְּהִׁי(11)yê'hi(12)LIGHT(13)73(14)אוֹר(15)NumWordsInVerse(15)
-or(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)LIGHT(5)73(6)אוֹר(7)or(8)NumWordsInVerse(8)
-1:4(0)and~he~will~SEE(V)(1)2185(2)וַיַרְּא(3)wai'yar(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)the~LIGHT(13)73(14)הָּאוֹר(15)ha'or(16)GIVEN.THAT(17)940(18)כִׁי(19)ki(20)FUNCTIONAL(21)848(22)טוֹב(23)tov(24)and~he~will~make~SEPARATE(V)(25)100(26)וַיַבְּדֵל(27)wai'yav'deyl(28)Elohiym(29)POWER~s(30)אֱלֹהִׁים(31)e'lo'him(32)BETWEEN(33)193(34)בֵין(35)beyn(36)the~LIGHT(37)73(38)הָּאוֹר(39)ha'or(40)and~BETWEEN(41)193(42)וּבֵין(43)u'veyn(44)the~DARKNESS(45)2439(46)הַחֹשֶךְ(47)ha'hho'shekh(48)NumWordsInVerse(48)
-1:5(0)and~he~will~CALL.OUT(V)(1)2147(2)וַיִׁקְּרָּא(3)wai'yiq'ra(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)to~LIGHT(9)73(10)לָּאוֹר(11)la'or(12)DAY(13)898(14)יוֹם(15)NumWordsInVerse(15)
-yom(0)and~to~DARKNESS(1)2439(2)וְּלַחֹשֶךְ(3)wê'la'hho'shekh(4)he~did~CALL.OUT(V)(5)2147(6)קָּרָּא(7)qa'ra(8)NIGHT(9)1111(10)לָּיְּלָּה(11)lai'lah(12)and~he~will~EXIST(V)(13)505(14)וַיְּהִׁי(15)wai'hi(16)EVENING(17)2724(18)עֶרֶב(19)e'rev(20)and~he~will~EXIST(V)(21)505(22)וַיְּהִׁי(23)wai'hi(24)MORNING(25)1861(26)בֹקֶר(27)NumWordsInVerse(27)
-vo'qer(0)DAY(1)898(2)יוֹם(3)yom(4)UNIT(5)636(6)אֶחָּד(7)e'hhad(8)NumWordsInVerse(8)
-1:6(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)he~will~EXIST(V)(9)505(10)יְּהִׁי(11)yê'hi(12)SHEET(13)2118(14)רָּקִׁיעַַ(15)ra'qi'a(16)in~MIDST(17)2631(18)בְּתוֹךְ(19)bê'tokh(20)the~WATER(21)1162~s2(22)הַמָּיִׁם(23)ha'ma'yim(24)and~he~will~EXIST(V)(25)505(26)וִׁיהִׁי(27)wi'hi(28)make~SEPARATE(V)(29)100~ing(ms)(30)מַבְּדִׁיל(31)mav'dil(32)BETWEEN(33)193(34)בֵין(35)beyn(36)WATER(37)1162~s2(38)מַיִׁם(39)ma'yim(40)to~WATER(41)1162~s2(42)לָּמָּיִׁם(43)la'ma'yim(44)NumWordsInVerse(44)
-1:7(0)and~he~will~DO(V)(1)1686(2)וַיַעַשׂ(3)wai'ya'as(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)the~SHEET(13)2118(14)הָּרָּקִׁיעַַ(15)ha'ra'qi'a(16)and~he~will~make~SEPARATE(V)(17)100(18)וַיַבְּדֵל(19)wai'yav'deyl(20)BETWEEN(21)193(22)בֵין(23)beyn(24)the~WATER(25)1162~s2(26)הַמַיִׁם(27)ha'ma'yim(28)WHICH(29)2589(30)אֲשֶר(31)a'sher(32)from~UNDER(33)2627(34)מִׁתַחַת(35)mi'ta'hhat(36)to~SHEET(37)2118(38)לָּרָּקִׁיעַַ(39)la'ra'qi'a(40)and~BETWEEN(41)193(42)וּבֵין(43)NumWordsInVerse(43)
-u'veyn(0)the~WATER(1)1162~s2(2)הַמַיִׁם(3)ha'ma'yim(4)WHICH(5)2589(6)אֲשֶר(7)a'sher(8)from~UPON(9)1616(10)מֵעַל(11)mey'al(12)to~SHEET(13)2118(14)לָּרָּקִׁיעַַ(15)NumWordsInVerse(15)
-la'ra'qi'a(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)SO(5)968(6)כֵן(7)kheyn2(8)NumWordsInVerse(8)
-1:8(0)and~he~will~CALL.OUT(V)(1)2147(2)וַיִׁקְּרָּא(3)wai'yiq'ra(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)to~SHEET(9)2118(10)לָּרָּקִׁיעַַ(11)la'ra'qi'a(12)SKY(13)2512~s2(14)שָּמָּיִׁם(15)sha'ma'yim(16)and~he~will~EXIST(V)(17)505(18)וַיְּהִׁי(19)wai'hi(20)EVENING(21)2724(22)עֶרֶב(23)e'rev(24)and~he~will~EXIST(V)(25)505(26)וַיְּהִׁי(27)NumWordsInVerse(27)
-wai'hi(0)MORNING(1)1861(2)בֹקֶר(3)vo'qer(4)DAY(5)898(6)יוֹם(7)yom(8)SECOND(9)2541(10)שֵנִׁי(11)shey'ni(12)NumWordsInVerse(12)
-1:9(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)he~will~be~BOUND.UP(V)(9)2060(10)יִׁקָּווּ(11)NumWordsInVerse(11)
-yi'qaw'u(0)the~WATER(1)1162~s2(2)הַמַיִׁם(3)ha'ma'yim(4)from~UNDER(5)2627(6)מִׁתַחַת(7)mi'ta'hhat(8)the~SKY(9)2512~s2(10)הַשָּמַיִׁם(11)NumWordsInVerse(11)
-ha'sha'ma'yim(0)TO(1)26(2)אֶל(3)el(4)AREA(5)2092(6)מָּקוֹם(7)ma'qom(8)UNIT(9)636(10)אֶחָּד(11)e'hhad(12)and~she~be~SEE(V)(13)2185(14)וְּתֵרָּאֶה(15)wê'tey'ra'eh(16)the~DRY.GROUND(17)258(18)הַיַבָּשָּה(19)hai'ya'ba'shah(20)and~he~will~EXIST(V)(21)505(22)וַיְּהִׁי(23)wai'hi(24)SO(25)968(26)כֵן(27)kheyn3(28)NumWordsInVerse(28)
-1:10(0)and~he~will~CALL.OUT(V)(1)2147(2)וַיִׁקְּרָּא(3)wai'yiq'ra(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)to~DRY.GROUND(9)258(10)לַיַבָּשָּה(11)NumWordsInVerse(11)
-lai'ya'ba'shah(0)LAND(1)2331(2)אֶרֶץ(3)e'rets(4)and~to~COLLECTION(5)2061(6)וּלְּמִׁקְּוֵה(7)ul'miq'weh(8)the~WATER(9)1162~s2(10)הַמַיִׁם(11)ha'ma'yim(12)he~did~CALL.OUT(V)(13)2147(14)קָּרָּא(15)qa'ra(16)SEA(17)895~s(18)יַמִׁים(19)ya'mim(20)and~he~will~SEE(V)(21)2185(22)וַיַרְּא(23)wai'yar(24)Elohiym(25)POWER~s(26)אֱלֹהִׁים(27)NumWordsInVerse(27)
-e'lo'him(0)GIVEN.THAT(1)940(2)כִׁי(3)ki(4)FUNCTIONAL(5)848(6)טוֹב(7)tov(8)NumWordsInVerse(8)
-1(0)The(1)skies(2)and(3)land(4)are(5)"fattened"(6)In(7)the(8)sense(9)of(10)being(11)"filled(12)up."(13)NumWordsInVerse(13)
-2(0)The(1)phrase(2)"and(3)he(4)will(5)exist(6)so"(7)means(8)"and(9)it(10)is(11)firmly(12)established."(13)NumWordsInVerse(13)
-3(0)The(1)phrase(2)"and(3)he(4)will(5)exist(6)so"(7)means(8)"and(9)it(10)is(11)firmly(12)established."(13)NumWordsInVerse(13)
-The(0)Mechanical(1)Translation(2)of(3)the(4)Torah(5)The(6)Book(7)of(8)Genesis(9)NumWordsInVerse(9)
-©(0)Jeff(1)A.(2)Benner(3)Page(4)3(5)www.mechanical-translation.org(6)NumWordsInVerse(6)
-1:11(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)she~will~make~SPROUT(V)(9)481(10)תַדְּשֵא(11)NumWordsInVerse(11)
-tad'shey(0)the~LAND(1)2331(2)הָּאָרֶץ(3)ha'a'rets(4)GRASS(5)482(6)דֶשֶא(7)de'she(8)HERB(9)1691(10)עֵשֶׂב(11)ey'sev(12)make~SOW(V)(13)605~ing(ms)(14)מַזְּרִׁיעַַ(15)NumWordsInVerse(15)
-maz'ri'a(0)SEED(1)606(2)זֶרַע(3)ze'ra(4)TREE(5)1706(6)עֵץ(7)eyts(8)PRODUCE(9)1859(10)פְּרִׁי(11)pê'ri(12)DO(V)(13)1686~ing(ms)(14)עֹשֶׂה(15)o'seh(16)PRODUCE(17)1859(18)פְּרִׁי(19)NumWordsInVerse(19)
-pê'ri(0)to~KIND(1)1216~him(2)לְּמִׁינוַֹ(3)lê'mi'no(4)WHICH(5)2589(6)אֲשֶר(7)a'sher(8)SEED(9)606~him(10)זַרְּעוַֹ(11)zar'o(12)in~him(13)בוַֹ(14)vo(15)UPON(16)1616(17)עַל(18)al(19)the~LAND(20)2331(21)הָּאָרֶץ(22)ha'a'rets(23)and~he~will~EXIST(V)(24)505(25)וַיְּהִׁי(26)wai'hi(27)SO(28)968(29)כֵן(30)kheyn1(31)NumWordsInVerse(31)
-1:12(0)and~she~will~make~GO.OUT(V)(1)1922(2)וַתוֹצֵא(3)wa'to'tsey(4)the~LAND(5)2331(6)הָּאָרֶץ(7)ha'a'rets(8)GRASS(9)482(10)דֶשֶא(11)de'she(12)HERB(13)1691(14)עֵשֶׂב(15)ey'sev(16)make~SOW(V)(17)605~ing(ms)(18)מַזְּרִׁיעַַ(19)maz'ri'a(20)SEED(21)606(22)זֶרַע(23)ze'ra(24)to~KIND(25)1216~him(26)לְּמִׁינֵהוּ(27)NumWordsInVerse(27)
-lê'mi'ney'hu(0)and~TREE(1)1706(2)וְּעֵץ(3)wê'eyts(4)DO(V)(5)1686~ing(ms)(6)עֹשֶׂה(7)o'seh(8)PRODUCE(9)1859(10)פְּרִׁי(11)pê'ri(12)WHICH(13)2589(14)אֲשֶר(15)a'sher(16)SEED(17)606~him(18)זַרְּעוַֹ(19)zar'o(20)in~him(21)בוַֹ(22)vo(23)to~KIND(24)1216~him(25)לְּמִׁינֵהוּ(26)lê'mi'ney'hu(27)and~he~will~SEE(V)(28)2185(29)וַיַרְּא(30)wai'yar(31)Elohiym(32)POWER~s(33)אֱלֹהִׁים(34)e'lo'him(35)GIVEN.THAT(36)940(37)כִׁי(38)ki(39)FUNCTIONAL(40)848(41)טוֹב(42)tov(43)NumWordsInVerse(43)
-1:13(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)EVENING(5)2724(6)עֶרֶב(7)e'rev(8)and~he~will~EXIST(V)(9)505(10)וַיְּהִׁי(11)wai'hi(12)MORNING(13)1861(14)בֹקֶר(15)vo'qer(16)DAY(17)898(18)יוֹם(19)yom(20)THIRD(21)2499(22)שְּלִׁישִׁי(23)shê'li'shi2(24)NumWordsInVerse(24)
-1:14(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)he~will~EXIST(V)(9)505(10)יְּהִׁי(11)yê'hi(12)LUMINARY(13)74~s(14)מְּאֹרֹת(15)mê'o'rot(16)in~SHEET(17)2118(18)בִׁרְּקִׁיעַַ(19)bir'qi'a(20)the~SKY(21)2512~s2(22)הַשָּמַיִׁם(23)ha'sha'ma'yim(24)to~>~make~SEPARATE(V)(25)100(26)לְּהַבְּדִׁיל(27)lê'hav'dil(28)BETWEEN(29)193(30)בֵין(31)beyn(32)the~DAY(33)898(34)הַיוֹם(35)hai'yom(36)and~BETWEEN(37)193(38)וּבֵין(39)NumWordsInVerse(39)
-u'veyn(0)the~NIGHT(1)1111(2)הַלָּיְּלָּה(3)ha'lai'lah(4)and~they(cp)~did~EXIST(V)(5)505(6)וְּהָּיוּ(7)wê'hai'u(8)to~SIGN(9)92~s(10)לְּאֹתֹת(11)lê'o'tot(12)and~to~APPOINTED(13)1594~s(14)וּלְּמוֹעֲדִׁים(15)ul'mo'a'dim(16)and~to~DAY(17)898~s(18)וּלְּיָּמִׁים(19)ul'ya'mim(20)and~YEAR(21)2534~s(22)וְּשָּנִׁים(23)NumWordsInVerse(23)
-wê'sha'nim(0)NumWordsInVerse(0)
-1:15(0)and~they(cp)~did~EXIST(V)(1)505(2)וְּהָּיוּ(3)wê'hai'u(4)to~LUMINARY(5)74~s(6)לִׁמְּאוֹרֹת(7)lim'o'rot(8)in~SHEET(9)2118(10)בִׁרְּקִׁיעַַ(11)bir'qi'a(12)the~SKY(13)2512~s2(14)הַשָּמַיִׁם(15)ha'sha'ma'yim(16)to~>~make~LIGHT(V)(17)72(18)לְּהָּאִׁיר(19)lê'ha'ir(20)UPON(21)1616(22)עַל(23)al(24)the~LAND(25)2331(26)הָּאָרֶץ(27)NumWordsInVerse(27)
-ha'a'rets(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)SO(5)968(6)כֵן(7)kheyn3(8)NumWordsInVerse(8)
-1:16(0)and~he~will~DO(V)(1)1686(2)וַיַעַשׂ(3)wai'ya'as(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)TWO(13)2540(14)שְּנֵי(15)shê'ney(16)the~LUMINARY(17)74~s(18)הַמְּאֹרֹת(19)ham'o'rot(20)the~GREAT(21)292~s(22)הַגְּדֹלִׁים(23)ha'ge'do'lim(24)AT(25)85(26)אֶת(27)et(28)the~LUMINARY(29)74(30)הַמָּאוֹר(31)NumWordsInVerse(31)
-ha'ma'or(0)the~GREAT(1)292(2)הַגָּדֹל(3)ha'ga'dol(4)to~REGULATION(5)2476(6)לְּמֶמְּשֶלֶת(7)lê'mem'she'let(8)the~DAY(9)898(10)הַיוֹם(11)hai'yom(12)and~AT(13)85(14)וְּאֶת(15)wê'et(16)the~LUMINARY(17)74(18)הַמָּאוֹר(19)ha'ma'or(20)the~SMALL(21)2070(22)הַקָּטֹן(23)ha'qa'ton(24)to~REGULATION(25)2476(26)לְּמֶמְּשֶלֶת(27)NumWordsInVerse(27)
-lê'mem'she'let(0)the~NIGHT(1)1111(2)הַלַיְּלָּה(3)ha'lai'lah(4)and~AT(5)85(6)וְּאֵת(7)wê'eyt(8)the~STAR(9)923~s(10)הַכוֹכָּבִׁים(11)ha'ko'kha'vim4(12)NumWordsInVerse(12)
-1:17(0)and~he~will~GIVE(V)(1)2659(2)וַיִׁתֵן(3)wai'yi'teyn(4)AT(5)85~them(mp)(6)אֹתָּם(7)o'tam(8)Elohiym(9)POWER~s(10)אֱלֹהִׁים(11)e'lo'him(12)in~SHEET(13)2118(14)בִׁרְּקִׁיעַַ(15)bir'qi'a(16)the~SKY(17)2512~s2(18)הַשָּמָּיִׁם(19)ha'sha'ma'yim(20)to~>~make~LIGHT(V)(21)72(22)לְּהָּאִׁיר(23)lê'ha'ir(24)UPON(25)1616(26)עַל(27)NumWordsInVerse(27)
-al(0)the~LAND(1)2331(2)הָּאָרֶץ(3)ha'a'rets(4)NumWordsInVerse(4)
-1:18(0)and~to~>~REGULATE(V)(1)2474(2)וְּלִׁמְּשֹל(3)wê'lim'shol(4)in~the~DAY(5)898(6)בַיוֹם(7)ba'yom(8)and~in~NIGHT(9)1111(10)וּבַלַיְּלָּה(11)u'va'lai'lah(12)and~to~>~make~SEPARATE(V)(13)100(14)וּלְּהַבְּדִׁיל(15)ul'hav'dil(16)BETWEEN(17)193(18)בֵין(19)beyn(20)the~LIGHT(21)73(22)הָּאוֹר(23)ha'or(24)and~BETWEEN(25)193(26)וּבֵין(27)u'veyn(28)the~DARKNESS(29)2439(30)הַחֹשֶךְ(31)ha'hho'shekh(32)and~he~will~SEE(V)(33)2185(34)וַיַרְּא(35)wai'yar(36)Elohiym(37)POWER~s(38)אֱלֹהִׁים(39)NumWordsInVerse(39)
-e'lo'him(0)GIVEN.THAT(1)940(2)כִׁי(3)ki(4)FUNCTIONAL(5)848(6)טוֹב(7)tov(8)NumWordsInVerse(8)
-1(0)The(1)phrase(2)"and(3)he(4)will(5)exist(6)so"(7)means(8)"and(9)it(10)is(11)firmly(12)established."(13)NumWordsInVerse(13)
-2(0)Days(1)one(2)through(3)three(4)are(5)the(6)"separating"(7)of(8)the(9)skies(10)and(11)land.(12)On(13)the(14)first(15)day(16)the(17)light(18)is(19)separated(20)from(21)the(22)darkness.(23)On(24)the(25)second(26)day(27)the(28)water(29)is(30)separated(31)from(32)the(33)skies.(34)On(35)the(36)third(37)day,(38)the(39)water(40)is(41)separated(42)from(43)the(44)land.(45)NumWordsInVerse(45)
-3(0)The(1)phrase(2)"and(3)he(4)will(5)exist(6)so"(7)means(8)"and(9)it(10)is(11)firmly(12)established."(13)NumWordsInVerse(13)
-4(0)The(1)phrase(2)"and(3)the(4)stars"(5)is(6)grammatically(7)and(8)contextually(9)out(10)of(11)place(12)and(13)appears(14)to(15)have(16)been(17)added(18)to(19)the(20)text.(21)In(22)addition,(23)the(24)Dead(25)Sea(26)Scroll(27)of(28)Genesis(29)does(30)not(31)include(32)this(33)phrase.(34)NumWordsInVerse(34)
-The(0)Mechanical(1)Translation(2)of(3)the(4)Torah(5)The(6)Book(7)of(8)Genesis(9)NumWordsInVerse(9)
-©(0)Jeff(1)A.(2)Benner(3)Page(4)4(5)www.mechanical-translation.org(6)NumWordsInVerse(6)
-1:19(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)EVENING(5)2724(6)עֶרֶב(7)e'rev(8)and~he~will~EXIST(V)(9)505(10)וַיְּהִׁי(11)wai'hi(12)MORNING(13)1861(14)בֹקֶר(15)vo'qer(16)DAY(17)898(18)יוֹם(19)yom(20)FOURTH(21)2214(22)רְּבִׁיעִׁי(23)rê'vi'i(24)NumWordsInVerse(24)
-1:20(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)they(mp)~will~SWARM(V)(9)2341(10)יִׁשְּרְּצוּ(11)NumWordsInVerse(11)
-yish're'tsu(0)the~WATER(1)1162~s2(2)הַמַיִׁם(3)ha'ma'yim(4)SWARMER(5)2342(6)שֶרֶץ(7)she'rets(8)BEING(9)1902(10)נֶפֶש(11)ne'phesh(12)LIVING(13)667(14)חַיָּה(15)NumWordsInVerse(15)
-hhai'yah(0)and~FLYER(1)1701(2)וְּעוֹף(3)wê'oph(4)he~will~much~FLY(V)(5)1700(6)יְּעוֹפֵף(7)yê'o'pheyph(8)UPON(9)1616(10)עַל(11)al(12)the~LAND(13)2331(14)הָּאָרֶץ(15)NumWordsInVerse(15)
-ha'a'rets(0)UPON(1)1616(2)עַל(3)al(4)FACE(5)1815~s(6)פְּנֵי(7)pê'ney(8)SHEET(9)2118(10)רְּקִׁיעַַ(11)rê'qi'a(12)the~SKY(13)2512~s2(14)הַשָּמָּיִׁם(15)ha'sha'ma'yim(16)NumWordsInVerse(16)
-1:21(0)and~he~will~FATTEN(V)(1)232(2)וַיִׁבְּרָּא(3)wai'yiv'ra(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)the~CROCODILE(13)2654~s(14)הַתַנִׁינִׁם(15)ha'ta'ni'nim1(16)the~GREAT(17)292~s(18)הַגְּדֹלִׁים(19)ha'ge'do'lim(20)and~AT(21)85(22)וְּאֵת(23)wê'eyt(24)ALL(25)957(26)כָּל(27)kol(28)BEING(29)1902(30)נֶפֶש(31)NumWordsInVerse(31)
-ne'phesh(0)the~LIVING(1)667(2)הַחַיָּה(3)ha'hha'yah(4)the~TREAD(V)(5)2312~ing(fs)(6)הָּרֹמֶשֶׂת(7)ha'ro'me'set(8)WHICH(9)2589(10)אֲשֶר(11)a'sher(12)they(mp)~did~SWARM(V)(13)2341(14)שָּרְּצוּ(15)shar'tsu(16)the~WATER(17)1162~s2(18)הַמַיִׁם(19)ha'ma'yim(20)to~KIND(21)1216~them(mp)(22)לְּמִׁינֵהֶם(23)NumWordsInVerse(23)
-lê'mi'ney'hem(0)and~AT(1)85(2)וְּאֵת(3)wê'eyt(4)ALL(5)957(6)כָּל(7)kol(8)FLYER(9)1701(10)עוֹף(11)oph(12)WING(13)984(14)כָּנָּף(15)ka'naph(16)to~KIND(17)1216~him(18)לְּמִׁינֵהוּ(19)lê'mi'ney'hu(20)and~he~will~SEE(V)(21)2185(22)וַיַרְּא(23)wai'yar(24)Elohiym(25)POWER~s(26)אֱלֹהִׁים(27)e'lo'him(28)GIVEN.THAT(29)940(30)כִׁי(31)ki(32)FUNCTIONAL(33)848(34)טוֹב(35)tov(36)NumWordsInVerse(36)
-1:22(0)and~he~will~much~KNEEL(V)(1)236(2)וַיְּבָּרֶךְ(3)wai'va'rekh(4)AT(5)85~them(mp)(6)אֹתָּם(7)o'tam(8)Elohiym(9)POWER~s(10)אֱלֹהִׁים(11)e'lo'him(12)to~>~SAY(V)(13)1187(14)לֵאמֹר(15)ley'mor(16)!(mp)~REPRODUCE(V)(17)1858(18)פְּרוּ(19)pê'ru(20)and~!(mp)~INCREASE(V)(21)2197(22)וּרְּבוּ(23)ur'vu(24)and~!(mp)~FILL(V)(25)1192(26)וּמִׁלְּאוּ(27)u'mil'u(28)AT(29)85(30)אֶת(31)et(32)the~WATER(33)1162~s2(34)הַמַיִׁם(35)ha'ma'yim(36)in~the~SEA(37)895~s(38)בַיַמִׁים(39)NumWordsInVerse(39)
-ba'ya'mim(0)and~the~FLYER(1)1701(2)וְּהָּעוֹף(3)wê'ha'oph(4)he~did~INCREASE(V)(5)2197(6)יִׁרֶב(7)yi'rev(8)in~the~LAND(9)2331(10)בָּאָרֶץ(11)ba'a'rets(12)NumWordsInVerse(12)
-1:23(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)EVENING(5)2724(6)עֶרֶב(7)e'rev(8)and~he~will~EXIST(V)(9)505(10)וַיְּהִׁי(11)wai'hi(12)MORNING(13)1861(14)בֹקֶר(15)vo'qer(16)DAY(17)898(18)יוֹם(19)yom(20)FIFTH(21)1271(22)חֲמִׁישִׁי(23)hha'mi'shi(24)NumWordsInVerse(24)
-1:24(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)she~will~make~GO.OUT(V)(9)1922(10)תוֹצֵא(11)NumWordsInVerse(11)
-to'tsey(0)the~LAND(1)2331(2)הָּאָרֶץ(3)ha'a'rets(4)BEING(5)1902(6)נֶפֶש(7)ne'phesh(8)LIVING(9)667(10)חַיָּה(11)hhai'yah(12)to~KIND(13)1216~her(14)לְּמִׁינָּהּ(15)NumWordsInVerse(15)
-lê'mi'nah(0)BEAST(1)178(2)בְּהֵמָּה(3)bê'hey'mah(4)and~TREADER(5)2313(6)וָּרֶמֶשׂ(7)wa're'mes(8)and~LIVING(9)667~him(10)וְּחַיְּתוַֹ(11)wê'hhai'to2(12)LAND(13)2331(14)אֶרֶץ(15)e'rets(16)to~KIND(17)1216~her(18)לְּמִׁינָּהּ(19)lê'mi'nah(20)and~he~will~EXIST(V)(21)505(22)וַיְּהִׁי(23)wai'hi(24)SO(25)968(26)כֵן(27)kheyn3(28)NumWordsInVerse(28)
-1:25(0)and~he~will~DO(V)(1)1686(2)וַיַעַשׂ(3)wai'ya'as(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)LIVING(13)667(14)חַיַת(15)hhai'yat(16)the~LAND(17)2331(18)הָּאָרֶץ(19)ha'a'rets(20)to~KIND(21)1216~her(22)לְּמִׁינָּהּ(23)lê'mi'nah(24)and~AT(25)85(26)וְּאֶת(27)wê'et(28)the~BEAST(29)178(30)הַבְּהֵמָּה(31)NumWordsInVerse(31)
-ha'be'hey'mah(0)to~KIND(1)1216~her(2)לְּמִׁינָּהּ(3)lê'mi'nah(4)and~AT(5)85(6)וְּאֵת(7)wê'eyt(8)ALL(9)957(10)כָּל(11)kol(12)TREADER(13)2313(14)רֶמֶשׂ(15)re'mes(16)the~GROUND(17)425(18)הָּאֲדָּמָּה(19)ha'a'da'mah(20)to~KIND(21)1216~him(22)לְּמִׁינֵהוּ(23)lê'mi'ney'hu(24)and~he~will~SEE(V)(25)2185(26)וַיַרְּא(27)wai'yar(28)Elohiym(29)POWER~s(30)אֱלֹהִׁים(31)e'lo'him(32)GIVEN.THAT(33)940(34)כִׁי(35)ki(36)FUNCTIONAL(37)848(38)טוֹב(39)tov(40)NumWordsInVerse(40)
-1:26(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)we(cp)~will~DO(V)(9)1686(10)נַעֲשֶׂה(11)na'a'seh(12)HUMAN(13)424(14)אָדָּם(15)a'dam(16)in~IMAGE(17)1971~us(cp)(18)בְּצַלְּמֵנוּ(19)bê'tsal'mey'nu(20)like~LIKENESS(21)431~us(cp)(22)כִׁדְּמוּתֵנוּ(23)kid'mu'tey'nu(24)and~he~did~RULE(V)(25)2235(26)וְּיִׁרְּדוּ(27)wê'yir'du(28)in~FISH(29)395(30)בִׁדְּגַת(31)vid'gat(32)the~SEA(33)895(34)הַיָּם(35)hai'yam(36)and~in~FLYER(37)1701(38)וּבְּעוֹף(39)NumWordsInVerse(39)
-uv'oph(0)the~SKY(1)2512~s2(2)הַשָּמַיִׁם(3)ha'sha'ma'yim(4)and~in~the~BEAST(5)178(6)וּבַבְּהֵמָּה(7)u'va'be'hey'mah(8)and~in~ALL(9)957(10)וּבְּכָּל(11)NumWordsInVerse(11)
-uv'khol(0)the~LAND(1)2331(2)הָּאָרֶץ(3)ha'a'rets(4)and~in~ALL(5)957(6)וּבְּכָּל(7)uv'khol(8)the~TREADER(9)2313(10)הָּרֶמֶשׂ(11)ha're'mes(12)the~TREAD(V)(13)2312~ing(ms)(14)הָּרֹמֵשׂ(15)ha'ro'meys(16)UPON(17)1616(18)עַל(19)al(20)the~LAND(21)2331(22)הָּאָרֶץ(23)ha'a'rets(24)NumWordsInVerse(24)
-1:27(0)and~he~will~FATTEN(V)(1)232(2)וַיִׁבְּרָּא(3)wai'yiv'ra(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)the~HUMAN(13)424(14)הָּאָדָּם(15)NumWordsInVerse(15)
-ha'a'dam(0)in~IMAGE(1)1971~him(2)בְּצַלְּמוַֹ(3)bê'tsal'mo(4)in~IMAGE(5)1971(6)בְּצֶלֶם(7)bê'tse'lem(8)Elohiym(9)POWER~s(10)אֱלֹהִׁים(11)e'lo'him(12)NumWordsInVerse(12)
-1(0)This(1)Hebrew(2)word(3)is(4)translated(5)in(6)various(7)ways(8)including;(9)whale,(10)sea-monster,(11)dragon,(12)serpent,(13)asp(14)and(15)jackal(16)(see(17)Exodus(18)7:9,(19)Deuteronomy(20)32:33,(21)Nehemiah(22)2:13,(23)Job(24)7:12).(25)According(26)to(27)these(28)texts(29)this(30)is(31)a(32)very(33)large(34)creature(35)and(36)lives(37)on(38)the(39)land(40)and(41)in(42)the(43)water,(44)which(45)are(46)charecteristics(47)of(48)the(49)crocodile.(50)NumWordsInVerse(50)
-2(0)The(1)Hebrew(2)literally(3)reads(4)"his(5)living(6)ones,"(7)but(8)may(9)be(10)written(11)defectively.(12)NumWordsInVerse(12)
-3(0)The(1)phrase(2)"and(3)he(4)existed(5)so"(6)Hebraicly(7)means(8)"and(9)it(10)is(11)firmly(12)established."(13)NumWordsInVerse(13)
-The(0)Mechanical(1)Translation(2)of(3)the(4)Torah(5)The(6)Book(7)of(8)Genesis(9)NumWordsInVerse(9)
-©(0)Jeff(1)A.(2)Benner(3)Page(4)5(5)www.mechanical-translation.org(6)NumWordsInVerse(6)
-he~did~FATTEN(V)(0)232(1)בָּרָּא(2)ba'ra(3)AT(4)85~him(5)אֹתוַֹ(6)o'to(7)MALE(8)1024(9)זָּכָּר(10)za'khar(11)and~FEMALE(12)2043(13)וּנְּקֵבָּה(14)un'qey'vah(15)he~did~FATTEN(V)(16)232(17)בָּרָּא(18)ba'ra(19)AT(20)85~them(mp)(21)אֹתָּם(22)o'tam(23)NumWordsInVerse(23)
-1:28(0)and~he~will~much~KNEEL(V)(1)236(2)וַיְּבָּרֶךְ(3)wai'va'rekh(4)AT(5)85~them(mp)(6)אֹתָּם(7)o'tam(8)Elohiym(9)POWER~s(10)אֱלֹהִׁים(11)e'lo'him(12)and~he~will~SAY(V)(13)1187(14)וַיֹאמֶר(15)wai'yo'mer(16)to~them(mp)(17)לָּהֶם(18)la'hem(19)Elohiym(20)POWER~s(21)אֱלֹהִׁים(22)e'lo'him(23)!(mp)~REPRODUCE(V)(24)1858(25)פְּרוּ(26)pê'ru(27)and~!(mp)~INCREASE(V)(28)2197(29)וּרְּבוּ(30)ur'vu(31)and~!(mp)~FILL(V)(32)1192(33)וּמִׁלְּאוּ(34)u'mil'u(35)AT(36)85(37)אֶת(38)NumWordsInVerse(38)
-et(0)the~LAND(1)2331(2)הָּאָרֶץ(3)ha'a'rets(4)and~!(mp)~SUBDUE(V)(5)205~her(6)וְּכִׁבְּשֻׁהַָּ(7)wê'khiv'shu'ah(8)and~!(mp)~RULE(V)(9)2235(10)וּרְּדוּ(11)NumWordsInVerse(11)
-ur'du(0)in~FISH(1)395(2)בִׁדְּגַת(3)bid'gat(4)the~SEA(5)895(6)הַיָּם(7)hai'yam(8)and~in~FLYER(9)1701(10)וּבְּעוֹף(11)uv'oph(12)the~SKY(13)2512~s2(14)הַשָּמַיִׁם(15)NumWordsInVerse(15)
-ha'sha'ma'yim(0)and~in~ALL(1)957(2)וּבְּכָּל(3)uv'khol(4)LIVING(5)667(6)חַיָּה(7)hhai'yah(8)the~TREAD(V)(9)2312~ing(fs)(10)הָּרֹמֶשֶׂת(11)ha'ro'me'set(12)UPON(13)1616(14)עַל(15)al(16)the~LAND(17)2331(18)הָּאָרֶץ(19)ha'a'rets(20)NumWordsInVerse(20)
-1:29(0)and~he~will~SAY(V)(1)1187(2)וַיֹאמֶר(3)wai'yo'mer(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)LOOK(9)526(10)הִׁנֵה(11)hin'neyh(12)I(cs)~did~GIVE(V)(13)2659(14)נָּתַתִׁי(15)na'ta'ti(16)to~you(mp)(17)לָּכֶם(18)la'khem(19)AT(20)85(21)אֶת(22)et(23)ALL(24)957(25)כָּל(26)kol(27)HERB(28)1691(29)עֵשֶׂב(30)ey'sev(31)SOW(V)(32)605~ing(ms)(33)זֹרֵעַַ(34)zo'rey'a(35)SEED(36)606(37)זֶרַע(38)ze'ra(39)WHICH(40)2589(41)אֲשֶר(42)a'sher(43)UPON(44)1616(45)עַל(46)al(47)FACE(48)1815~s(49)פְּנֵי(50)pê'ney(51)ALL(52)957(53)כָּל(54)khol(55)the~LAND(56)2331(57)הָּאָרֶץ(58)ha'a'rets(59)and~AT(60)85(61)וְּאֶת(62)wê'et(63)ALL(64)957(65)כָּל(66)kol(67)the~TREE(68)1706(69)הָּעֵץ(70)ha'eyts(71)WHICH(72)2589(73)אֲשֶר(74)a'sher(75)in~him(76)בוַֹ(77)bo(78)PRODUCE(79)1859(80)פְּרִׁי(81)phê'ri(82)TREE(83)1706(84)עֵץ(85)eyts(86)SOW(V)(87)605~ing(ms)(88)זֹרֵעַַ(89)zo'rey'a(90)SEED(91)606(92)זָּרַע(93)za'ra(94)to~you(mp)(95)לָּכֶם(96)la'khem(97)he~will~EXIST(V)(98)505(99)יִׁהְּיֶה(100)yih'yeh(101)to~FOOD(102)949(103)לְּאָכְּלָּה(104)lê'akh'lah(105)NumWordsInVerse(105)
-1:30(0)and~to~ALL(1)957(2)וּלְּכָּל(3)ul'khol(4)LIVING(5)667(6)חַיַת(7)hhai'yat(8)the~LAND(9)2331(10)הָּאָרֶץ(11)ha'a'rets(12)and~to~ALL(13)957(14)וּלְּכָּל(15)ul'khol(16)FLYER(17)1701(18)עוֹף(19)oph(20)the~SKY(21)2512~s2(22)הַשָּמַיִׁם(23)ha'sha'ma'yim(24)and~to~ALL(25)957(26)וּלְּכֹל(27)ul'khol(28)TREAD(V)(29)2312~ing(ms)(30)רוֹמֵשׂ(31)NumWordsInVerse(31)
-ro'meys(0)UPON(1)1616(2)עַל(3)al(4)the~LAND(5)2331(6)הָּאָרֶץ(7)ha'a'rets(8)WHICH(9)2589(10)אֲשֶר(11)a'sher(12)in~him(13)בוַֹ(14)bo(15)BEING(16)1902(17)נֶפֶש(18)ne'phesh(19)LIVING(20)667(21)חַיָּה(22)hhai'yah(23)AT(24)85(25)אֶת(26)et(27)ALL(28)957(29)כָּל(30)kol(31)GREEN(32)2349(33)יֶרֶק(34)ye'req(35)HERB(36)1691(37)עֵשֶׂב(38)ey'sev(39)to~FOOD(40)949(41)לְּאָכְּלָּה(42)NumWordsInVerse(42)
-lê'akh'lah(0)and~he~will~EXIST(V)(1)505(2)וַיְּהִׁי(3)wai'hi(4)SO(5)968(6)כֵן(7)kheyn1(8)NumWordsInVerse(8)
-1:31(0)and~he~will~SEE(V)(1)2185(2)וַיַרְּא(3)wai'yar(4)Elohiym(5)POWER~s(6)אֱלֹהִׁים(7)e'lo'him(8)AT(9)85(10)אֶת(11)et(12)ALL(13)957(14)כָּל(15)kol(16)WHICH(17)2589(18)אֲשֶר(19)NumWordsInVerse(19)
-a'sher(0)he~did~DO(V)(1)1686(2)עָּשָּׂה(3)a'sah(4)and~LOOK(5)526(6)וְּהִׁנֵה(7)wê'hin'neyh(8)FUNCTIONAL(9)848(10)טוֹב(11)tov(12)MANY(13)8(14)מְּאֹד(15)mê'od(16)and~he~will~EXIST(V)(17)505(18)וַיְּהִׁי(19)wai'hi(20)EVENING(21)2724(22)עֶרֶב(23)e'rev(24)and~he~will~EXIST(V)(25)505(26)וַיְּהִׁי(27)wai'hi(28)MORNING(29)1861(30)בֹקֶר(31)NumWordsInVerse(31)
-vo'qer(0)DAY(1)898(2)יוֹם(3)yom(4)the~SIXTH(5)2613(6)הַשִׁשִׁי(7)ha'shi'shi2(8)NumWordsInVerse(8)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<TITLE>
+		בְּרֵאשִׁית
+	</TITLE>
+</HEAD>
+<BODY>
+	<div class="changeLanguage" style="width:100%; float:right;">
+		<div onclick="javascript:changeChapterLang(1); return false;">עברית</div>
+		<div onclick="javascript:changeChapterLang(2); return false;">Transliteration</div>
+	</div>
+
+	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>
+
+	<div class="eight_w_verses" style="width:100%; float:right;">
+		<div <strong>{בְּרֵאשִׁית}</strong> </div>
+		<div id="div_id1" 
+			onclick="javascript:Switch_Heb_Translit_1_1(1); return false;">בְּרֵאשִׁית</div>
+		<div id="div_id2"
+			onclick="javascript:Switch_Heb_Translit_1_1(2); return false;">בָּרָא</div>
+		<div id="div_id3"
+			onclick="javascript:Switch_Heb_Translit_1_1(3); return false;">אֱלֹהִים</div>
+		<div id="div_id4"
+			onclick="javascript:Switch_Heb_Translit_1_1(4); return false;">אֵת</div>
+		<div id="div_id5"
+			onclick="javascript:Switch_Heb_Translit_1_1(5); return false;">הַשָּׁמַיִם</div>
+		<div id="div_id6" 
+			onclick="javascript:Switch_Heb_Translit_1_1(6); return false;">וְאֵת</div>
+		<div id="div_id7"
+			onclick="javascript:Switch_Heb_Translit_1_1(7); return false;">הָאָרֶץ</div>
+	</div>
+
+	<div class="English_n_AHL" style="width:100%; float:right;">
+		<div><strong>1:1</strong></div>
+		<div id="div_id1_b" style="text-align:right;"
+			onclick="javascript:Switch_Eng_AHL_1_1(1); return false;">בְּרֵאשִׁית</div>
+		<div id="div_id2_b"
+			onclick="javascript:Switch_Eng_AHL_1_1(2); return false;">בָּרָא</div>
+		<div id="div_id3_b"
+			onclick="javascript:Switch_Eng_AHL_1_1(3); return false;">אֱלֹהִים</div>
+		<div id="div_id4_b"
+			onclick="javascript:Switch_Eng_AHL_1_1(4); return false;">אֵת</div>
+		<div id="div_id5_b"
+			onclick="javascript:Switch_Eng_AHL_1_1(5); return false;">הַשָּׁמַיִם</div>
+		<div id="div_id6_b" 
+			onclick="javascript:Switch_Eng_AHL_1_1(6); return false;">וְאֵת</div>
+		<div id="div_id7_b"
+			onclick="javascript:Switch_Eng_AHL_1_1(7); return false;">הָאָרֶץ</div>
+	</div>
+
+	<A NAME="32"> </A>
+
+	</BODY>
+</HTML>
