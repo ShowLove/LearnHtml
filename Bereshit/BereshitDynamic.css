@@ -5,14 +5,14 @@ TD.h {vertical-align:top;direction:rtl;unicode-bidi:embed;text-align:right;font-
 TD.m {vertical-align:middle;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
 
 div.changeLanguage div { display:inline-block;
-	float:right; width:90px; font-size:100%;font-family:David; padding:10px;
-	height:20; border-color: #6495ED; border-style: solid; 
-	border-width: 2px; border-radius: 5px; margin: auto;}
+	float:right; width:30%; font-size:100%;font-family:David; padding:5px;
+	height:20; border-color:black; border-style: solid; 
+	border-width: 20px; border-radius: 5px; margin:auto;}
 
 /* each word takes 14% of the space */
 div.bereshit1one div { display:inline-block;
-	float:right; width:90px;font-size:100%;font-family:David; padding:5px;}
+	float:right; width:11%;font-size:100%;font-family:David; padding:5px;}
 
 /* each word takes 14% of the space */
 div.Translit_Strongs div { display:inline-block;
-	float:right; width:90px;font-size:100%;font-family:David; padding:5px;}
+	float:right; width:11%;font-size:100%;font-family:David; padding:5px;}
