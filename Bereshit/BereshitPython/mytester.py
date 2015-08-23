@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/output.txt","w")
+write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/pyOut.html","w")
 
-#thoughts
-#numWords%4 will give the true number of words, I then need fig out hmany 8w lines that gives me
-
-#Questions    can i use ':' in a function? I need to figure this out
+def remColon_underscore( chapterVerse ):
+	return chapterVerse.replace(":","_")
+def remUnderscore_colon( chapterVerse ):
+	return chapterVerse.replace("_",":")
 
 def w_header():
 	write_file.write("""<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -24,24 +24,6 @@ def w_header():
 	</div>
 
 	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>""")
-
-chapterVerse = "1:1"
-word1 = "בְּרֵאשִׁית"
-word2 = "בָּרָא"
-word3 = "אֱלֹהִים"
-word4 = "אֵת"
-word5 = "הַשָּׁמַיִם"
-word6 = "וְאֵת"
-word7 = "הָאָרֶץ"
-
-
-def remColon_underscore( chapterVerse ):
-	return chapterVerse.replace(":","_")
-def remUnderscore_colon( chapterVerse ):
-	return chapterVerse.replace("_",":")
-
-chapterVerse = remColon_underscore( chapterVerse )
-
 
 def w_HebEng_L1( chapterVerse, word1, word2, word3, word4, word5, word6, word7):
 	write_file.write("""	<div class="eight_w_verses" style="width:100%; float:right;">
@@ -62,22 +44,9 @@ def w_HebEng_L1( chapterVerse, word1, word2, word3, word4, word5, word6, word7):
 			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(7); return false;">"""+word7+"""</div>
 	</div>""")
 
-word1 = "בְּרֵאשִׁית"
-word2 = "בָּרָא"
-word3 = "אֱלֹהִים"
-word4 = "אֵת"
-word5 = "הַשָּׁמַיִם"
-word6 = "וְאֵת"
-word7 = "הָאָרֶץ"
-
-def remUnderscore_colon( chapterVerse ):
-	return chapterVerse.replace("_",":")
-
-chapterVerse2 = remUnderscore_colon( chapterVerse )
-
-def w_EngAHL_L1_B( chapterVerse, word1, word2, word3, word4, word5, word6, word7):
+def w_EngAHL_L1_B( chapterVerse, chapterVerseColon, word1, word2, word3, word4, word5, word6, word7):
 	write_file.write("""	<div class="English_n_AHL" style="width:100%; float:right;">
-		<div><strong>"""+chapterVerse2+"""</strong></div>
+		<div><strong>"""+chapterVerseColon+"""</strong></div>
 		<div id="div_id1_b" style="text-align:right;"
 			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(1); return false;">"""+word1+"""</div>
 		<div id="div_id2_b"
@@ -101,16 +70,42 @@ def w_tail():
 </HTML>""")
 
 
+##################################################
+#Code that actually writes the code
+##################################################
 
 w_header()
 
 write_file.write("\n\n")
 
+chapterVerse = "1:1"
+word1 = "בְּרֵאשִׁית"
+word2 = "בָּרָא"
+word3 = "אֱלֹהִים"
+word4 = "אֵת"
+word5 = "הַשָּׁמַיִם"
+word6 = "וְאֵת"
+word7 = "הָאָרֶץ"
+
+#This is to mark functions according to ch:vs --> ch_vs
+chapterVerse = remColon_underscore( chapterVerse )
+
 w_HebEng_L1( chapterVerse, word1, word2, word3, word4, word5, word6, word7)
 
 write_file.write("\n\n")
 
-w_EngAHL_L1_B( chapterVerse, word1, word2, word3, word4, word5, word6, word7)
+word1 = "בְּרֵאשִׁית"
+word2 = "בָּרָא"
+word3 = "אֱלֹהִים"
+word4 = "אֵת"
+word5 = "הַשָּׁמַיִם"
+word6 = "וְאֵת"
+word7 = "הָאָרֶץ"
+
+#This is for the ch verse indicator i.e. 1:7
+chapterVerseColon = remUnderscore_colon( chapterVerse )
+
+w_EngAHL_L1_B( chapterVerse, chapterVerseColon, word1, word2, word3, word4, word5, word6, word7)
 
 write_file.write("\n\n")
 
