@@ -190,13 +190,13 @@ def im_tiredOfThisShit():
 
     //Hebrew --> Transliteration && Strongs --> English
     if( idElement == 2){
-      document.getElementById('div_id1_b').innerHTML ="bê'rey'shit";
-      document.getElementById('div_id2_b').innerHTML ="ba'ra";
-      document.getElementById('div_id3_b').innerHTML ="e'lo'him";
-      document.getElementById('div_id4_b').innerHTML ="eyt";
-      document.getElementById('div_id5_b').innerHTML ="ha'sha'ma'yim";
-      document.getElementById('div_id6_b').innerHTML ="wê'eyt";
-      document.getElementById('div_id7_b').innerHTML ="ha'a'rets";
+      document.getElementById('div_id1').innerHTML ="bê'rey'shit";
+      document.getElementById('div_id2').innerHTML ="ba'ra";
+      document.getElementById('div_id3').innerHTML ="e'lo'him";
+      document.getElementById('div_id4').innerHTML ="eyt";
+      document.getElementById('div_id5').innerHTML ="ha'sha'ma'yim";
+      document.getElementById('div_id6').innerHTML ="wê'eyt";
+      document.getElementById('div_id7').innerHTML ="ha'a'rets";
       //AHL --> English
       document.getElementById('div_id7_b').innerHTML ="in~SUMMIT";
       document.getElementById('div_id7_b').innerHTML ="he~did~FATTEN";
