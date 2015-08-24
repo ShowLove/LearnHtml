@@ -1,4 +1,3 @@
-
 #open the file
 input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/chapter1.txt", "r")
 
@@ -22,10 +21,11 @@ for var_list in lines_list:
 
 	for index, word in enumerate(word_list):
 		if len(word_list) > 1:
+			#Bad Data: References, Page Title, (c)
 			if ( index == 0 and word.isdigit() ) or ( word_list[0] == 'The' and word_list[1] == 'Mechanical' ) or ( word_list[1] == 'Jeff' ):
 				print "Bad Data"
 				break
-				
+
 		#we found a new verse
 		if ':' in word:
 			print word+ "  " + word_list[1] + "\n"
