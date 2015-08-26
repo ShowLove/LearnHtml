@@ -1,0 +1,247 @@
+r.py 
+1:1  in~SUMMIT
+
+1:2  and~the~LAND
+
+Next_willB_Glitch:or
+1:3  and~he~will~SAY(V)
+
+Glitch: or
+
+1:4  and~he~will~SEE(V)
+
+Next_willB_Glitch:yom
+1:5  and~he~will~CALL.OUT(V)
+
+Glitch: yom
+
+Next_willB_Glitch:vo'qer
+Glitch: vo'qer
+
+1:6  and~he~will~SAY(V)
+
+Next_willB_Glitch:u'veyn
+1:7  and~he~will~DO(V)
+
+Glitch: u'veyn
+
+Next_willB_Glitch:la'ra'qi'a
+Glitch: la'ra'qi'a
+
+Next_willB_Glitch:wai'hi
+1:8  and~he~will~CALL.OUT(V)
+
+Glitch: wai'hi
+
+Next_willB_Glitch:yi'qaw'u
+1:9  and~he~will~SAY(V)
+
+Glitch: yi'qaw'u
+
+Next_willB_Glitch:ha'sha'ma'yim
+Glitch: ha'sha'ma'yim
+
+Next_willB_Glitch:lai'ya'ba'shah
+1:10  and~he~will~CALL.OUT(V)
+
+Glitch: lai'ya'ba'shah
+
+Next_willB_Glitch:e'lo'him
+Glitch: e'lo'him
+
+Next_willB_Glitch:1
+Glitch: 1
+
+Next_willB_Glitch:2
+Bad Data
+Glitch: 2
+
+Next_willB_Glitch:3
+Bad Data
+Glitch: 3
+
+Next_willB_Glitch:The
+Bad Data
+Glitch: The
+
+Next_willB_Glitch:©
+Bad Data
+Glitch: ©
+
+Bad Data
+Next_willB_Glitch:tad'shey
+1:11  and~he~will~SAY(V)
+
+Glitch: tad'shey
+
+Next_willB_Glitch:maz'ri'a
+Glitch: maz'ri'a
+
+Next_willB_Glitch:pê'ri
+Glitch: pê'ri
+
+Next_willB_Glitch:lê'mi'ney'hu
+1:12  and~she~will~make~GO.OUT(V)
+
+Glitch: lê'mi'ney'hu
+
+1:13  and~he~will~EXIST(V)
+
+Next_willB_Glitch:u'veyn
+1:14  and~he~will~SAY(V)
+
+Glitch: u'veyn
+
+Next_willB_Glitch:wê'sha'nim
+Next_willB_Glitch:ha'a'rets
+1:15  and~they(cp)~did~EXIST(V)
+
+Glitch: ha'a'rets
+
+Next_willB_Glitch:ha'ma'or
+1:16  and~he~will~DO(V)
+
+Glitch: ha'ma'or
+
+Next_willB_Glitch:lê'mem'she'let
+Glitch: lê'mem'she'let
+
+Next_willB_Glitch:al
+1:17  and~he~will~GIVE(V)
+
+Glitch: al
+
+Next_willB_Glitch:e'lo'him
+1:18  and~to~>~REGULATE(V)
+
+Glitch: e'lo'him
+
+Next_willB_Glitch:1
+Glitch: 1
+
+Next_willB_Glitch:2
+Bad Data
+Glitch: 2
+
+Next_willB_Glitch:3
+Bad Data
+Glitch: 3
+
+Next_willB_Glitch:4
+Bad Data
+Glitch: 4
+
+Next_willB_Glitch:The
+Bad Data
+Glitch: The
+
+Next_willB_Glitch:©
+Bad Data
+Glitch: ©
+
+Bad Data
+1:19  and~he~will~EXIST(V)
+
+Next_willB_Glitch:yish're'tsu
+1:20  and~he~will~SAY(V)
+
+Glitch: yish're'tsu
+
+Next_willB_Glitch:hhai'yah
+Glitch: hhai'yah
+
+Next_willB_Glitch:ha'a'rets
+Glitch: ha'a'rets
+
+Next_willB_Glitch:ne'phesh
+1:21  and~he~will~FATTEN(V)
+
+Glitch: ne'phesh
+
+Next_willB_Glitch:lê'mi'ney'hem
+Glitch: lê'mi'ney'hem
+
+Next_willB_Glitch:ba'ya'mim
+1:22  and~he~will~much~KNEEL(V)
+
+Glitch: ba'ya'mim
+
+1:23  and~he~will~EXIST(V)
+
+Next_willB_Glitch:to'tsey
+1:24  and~he~will~SAY(V)
+
+Glitch: to'tsey
+
+Next_willB_Glitch:lê'mi'nah
+Glitch: lê'mi'nah
+
+Next_willB_Glitch:ha'be'hey'mah
+1:25  and~he~will~DO(V)
+
+Glitch: ha'be'hey'mah
+
+Next_willB_Glitch:uv'oph
+1:26  and~he~will~SAY(V)
+
+Glitch: uv'oph
+
+Next_willB_Glitch:uv'khol
+Glitch: uv'khol
+
+Next_willB_Glitch:ha'a'dam
+1:27  and~he~will~FATTEN(V)
+
+Glitch: ha'a'dam
+
+Next_willB_Glitch:1
+Glitch: 1
+
+Next_willB_Glitch:2
+Bad Data
+Glitch: 2
+
+Next_willB_Glitch:3
+Bad Data
+Glitch: 3
+
+Next_willB_Glitch:The
+Bad Data
+Glitch: The
+
+Next_willB_Glitch:©
+Bad Data
+Glitch: ©
+
+Next_willB_Glitch:he~did~FATTEN(V)
+Bad Data
+Glitch: he~did~FATTEN(V)
+
+Next_willB_Glitch:et
+1:28  and~he~will~much~KNEEL(V)
+
+Glitch: et
+
+Next_willB_Glitch:ur'du
+Glitch: ur'du
+
+Next_willB_Glitch:ha'sha'ma'yim
+Glitch: ha'sha'ma'yim
+
+1:29  and~he~will~SAY(V)
+
+Next_willB_Glitch:ro'meys
+1:30  and~to~ALL
+
+Glitch: ro'meys
+
+Next_willB_Glitch:lê'akh'lah
+Glitch: lê'akh'lah
+
+Next_willB_Glitch:a'sher
+1:31  and~he~will~SEE(V)
+
+Glitch: a'sher
+
+Next_willB_Glitch:vo'qer
+Glitch: vo'qer

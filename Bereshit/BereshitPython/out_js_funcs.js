@@ -3,13 +3,13 @@ function changeChapterLang(idElement){
   //switch between Heb and Transliteration or Eng and AHL
 
 	//Change all text to either Hebrew or Transliteration
-	if( idElement == 1){
+  if( idElement == 1){
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";
 	return false;}
 	//Change all text to either English or AHL
-    if( idElement == 2){
+  if( idElement == 2){
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";
       document.getElementById('divNum_1_1_7_1L1').innerHTML ="בְּרֵאשִׁית";

@@ -1,118 +1,65 @@
-# -*- coding: utf-8 -*-
+#open the file
+input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/data_chapter1.txt", "r")
 
-write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/pyOut.html","w")
+#read file into a list of lines
+lines_list = input_file.read().splitlines()
 
-def remColon_underscore( chapterVerse ):
-	return chapterVerse.replace(":","_")
-def remUnderscore_colon( chapterVerse ):
-	return chapterVerse.replace("_",":")
+# Close the File stream handler
+input_file.close()
 
-def w_header():
-	write_file.write("""<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<HTML>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-<HEAD>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<TITLE>
-		בְּרֵאשִׁית
-	</TITLE>
-</HEAD>
-<BODY>
-	<div class="changeLanguage" style="width:100%; float:right;">
-		<div onclick="javascript:changeChapterLang(1); return false;">עברית</div>
-		<div onclick="javascript:changeChapterLang(2); return false;">Transliteration</div>
-	</div>
+# The OPEN function returns a file object
+write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt","w")
 
-	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>""")
+# Writing a VARIABLE to file in for loop
+for index, var_list in enumerate(lines_list):
 
-def w_HebEng_L1( chapterVerse, word1, word2, word3, word4, word5, word6, word7):
-	write_file.write("""	<div class="eight_w_verses" style="width:100%; float:right;">
-		<div <strong>{בְּרֵאשִׁית}</strong> </div>
-		<div id="div_id1" 
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(1); return false;">"""+word1+"""</div>
-		<div id="div_id2"
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(2); return false;">"""+word2+"""</div>
-		<div id="div_id3"
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(3); return false;">"""+word3+"""</div>
-		<div id="div_id4"
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(4); return false;">"""+word4+"""</div>
-		<div id="div_id5"
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(5); return false;">"""+word5+"""</div>
-		<div id="div_id6" 
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(6); return false;">"""+word6+"""</div>
-		<div id="div_id7"
-			onclick="javascript:Switch_Heb_Translit_"""+chapterVerse+"""(7); return false;">"""+word7+"""</div>
-	</div>""")
+	#tric for splitin a string to a list of words
+	#word_list = var_list.split()
 
-def w_EngAHL_L1_B( chapterVerse, chapterVerseColon, word1, word2, word3, word4, word5, word6, word7):
-	write_file.write("""	<div class="English_n_AHL" style="width:100%; float:right;">
-		<div><strong>"""+chapterVerseColon+"""</strong></div>
-		<div id="div_id1_b" style="text-align:right;"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(1); return false;">"""+word1+"""</div>
-		<div id="div_id2_b"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(2); return false;">"""+word2+"""</div>
-		<div id="div_id3_b"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(3); return false;">"""+word3+"""</div>
-		<div id="div_id4_b"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(4); return false;">"""+word4+"""</div>
-		<div id="div_id5_b"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(5); return false;">"""+word5+"""</div>
-		<div id="div_id6_b" 
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(6); return false;">"""+word6+"""</div>
-		<div id="div_id7_b"
-			onclick="javascript:Switch_Eng_AHL_"""+chapterVerse+"""(7); return false;">"""+word7+"""</div>
-	</div>""")
+	#get number of words in this verse
+	num_word_lists = len(lines_list)
 
-def w_tail():
-	write_file.write("""	<A NAME="32"> </A>
+	problem_var = lines_list[index]
+	problem_words = problem_var.split()
 
-	</BODY>
-</HTML>""")
+	#Catches glitch word list, else we print chap:verse word[1]
+	if len(problem_words) > 1:
+		if ( (problem_words[0].isdigit() < 8) and (':' not in problem_words[0]) ):
+			print "Glitch: "+problem_words[0]+"\n"
 
+	#Catches if next sentence is a glitch
+	next_wL_index = index + 1
+	if next_wL_index < len(lines_list):
+		problem_var = lines_list[next_wL_index]
+		problem_words2 = problem_var.split()
 
-##################################################
-#Code that actually writes the code
-##################################################
+		if len(problem_words) > 1:
+			if ( (problem_words2[0].isdigit() < 8) and (':' not in problem_words2[0]) ):
+				print "Next_willB_Glitch:"+problem_words2[0]
+				lines_list[index+1] = " "+lines_list[index+1]
+				lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
+				#lines_list[index] = problem_words + problem_words2
 
-w_header()
+	word_list = lines_list[index].split()
 
-write_file.write("\n\n")
+	#not including C:V and starting on 0 index
+	num_words = len(word_list) - 1
 
-chapterVerse = "1:1"
-word1 = "בְּרֵאשִׁית"
-word2 = "בָּרָא"
-word3 = "אֱלֹהִים"
-word4 = "אֵת"
-word5 = "הַשָּׁמַיִם"
-word6 = "וְאֵת"
-word7 = "הָאָרֶץ"
+	for index, word in enumerate(word_list):
+		if len(word_list) > 1:
+			#Bad Data: References, Page Title, (c)
+			if ( index == 0 and word.isdigit() ) or ( word_list[0] == 'The' and word_list[1] == 'Mechanical' ) or ( word_list[1] == 'Jeff' ):
+				print "Bad Data"
+				break
 
-#This is to mark functions according to ch:vs --> ch_vs
-chapterVerse = remColon_underscore( chapterVerse )
+		#we found a new verse
+		if ':' in word:
+			print word+ "  " + word_list[1] + "\n"
 
-w_HebEng_L1( chapterVerse, word1, word2, word3, word4, word5, word6, word7)
+		write_file.write(word+"("+str(index)+")")
 
-write_file.write("\n\n")
+	#exit inner for loop		
+	write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
 
-word1 = "בְּרֵאשִׁית"
-word2 = "בָּרָא"
-word3 = "אֱלֹהִים"
-word4 = "אֵת"
-word5 = "הַשָּׁמַיִם"
-word6 = "וְאֵת"
-word7 = "הָאָרֶץ"
-
-#This is for the ch verse indicator i.e. 1:7
-chapterVerseColon = remUnderscore_colon( chapterVerse )
-
-w_EngAHL_L1_B( chapterVerse, chapterVerseColon, word1, word2, word3, word4, word5, word6, word7)
-
-write_file.write("\n\n")
-
-w_tail()
-
-
+# Close the FILE object in PYTHON
 write_file.close
-
-
-
