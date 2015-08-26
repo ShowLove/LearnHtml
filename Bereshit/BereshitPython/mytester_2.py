@@ -1,3 +1,15 @@
+def concatenateNext_string_TF( index, lines_list):
+	next_wL_index = index + 1
+	if next_wL_index < len(lines_list):
+		#ThisIs A variable word_list: tric for splitin a string to a list of words
+		problem_var = lines_list[next_wL_index]
+		problem_words2 = problem_var.split()
+		#Check if this is a vere or a glitch where we start in middle of verse
+		if ( (problem_words2[0].isdigit() < 8) and (':' not in problem_words2[0]) ):
+			return True
+
+	return False
+
 def concatenateNext_string( index, lines_list):
 	next_wL_index = index + 1
 	if next_wL_index < len(lines_list):
@@ -14,7 +26,7 @@ def concatenateNext_string( index, lines_list):
 			lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
 			word_list = lines_list[index].split()
 
-global word_list
+	return word_list
 
 #open the file
 input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/data_chapter1.txt", "r")
@@ -39,7 +51,8 @@ for index, var_list in enumerate(lines_list):
 	num_word_lists = len(lines_list)
 
 	#Catches if NEXT w_L is a glitch
-	concatenateNext_string( index, lines_list)
+	if concatenateNext_string_TF( index, lines_list):
+		word_list = concatenateNext_string( index, lines_list)
 
 
 	#not including C:V and starting on 0 index
