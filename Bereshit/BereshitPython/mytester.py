@@ -14,33 +14,39 @@ write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/Beres
 for index, var_list in enumerate(lines_list):
 
 	#tric for splitin a string to a list of words
-	#word_list = var_list.split()
+	#This will be used if nothing was a glitch
+	word_list = var_list.split()
 
 	#get number of words in this verse
 	num_word_lists = len(lines_list)
 
+	#ThisIs A variable word_list: tric for splitin a string to a list of words
 	problem_var = lines_list[index]
 	problem_words = problem_var.split()
 
-	#Catches glitch word list, else we print chap:verse word[1]
+	#Each word_list is supposed to be a singular verse, 
+	#this checks if CURRENT w_L is part of a verse but doesn't begin at the begining of verse
 	if len(problem_words) > 1:
 		if ( (problem_words[0].isdigit() < 8) and (':' not in problem_words[0]) ):
 			print "Glitch: "+problem_words[0]+"\n"
 
-	#Catches if next sentence is a glitch
+	#Catches if NEXT w_L is a glitch
 	next_wL_index = index + 1
 	if next_wL_index < len(lines_list):
+		#ThisIs A variable word_list: tric for splitin a string to a list of words
 		problem_var = lines_list[next_wL_index]
 		problem_words2 = problem_var.split()
 
 		if len(problem_words) > 1:
 			if ( (problem_words2[0].isdigit() < 8) and (':' not in problem_words2[0]) ):
 				print "Next_willB_Glitch:"+problem_words2[0]
+				#Add a space to the next so that it doesnt join the lastW from this list and firstW from the next
+				#Then Join this line and the next
+				#Then replace word_list
 				lines_list[index+1] = " "+lines_list[index+1]
 				lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
-				#lines_list[index] = problem_words + problem_words2
+				word_list = lines_list[index].split()
 
-	word_list = lines_list[index].split()
 
 	#not including C:V and starting on 0 index
 	num_words = len(word_list) - 1
