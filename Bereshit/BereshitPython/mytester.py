@@ -37,15 +37,14 @@ for index, var_list in enumerate(lines_list):
 		problem_var = lines_list[next_wL_index]
 		problem_words2 = problem_var.split()
 
-		if len(problem_words) > 1:
-			if ( (problem_words2[0].isdigit() < 8) and (':' not in problem_words2[0]) ):
-				print "Next_willB_Glitch:"+problem_words2[0]
-				#Add a space to the next so that it doesnt join the lastW from this list and firstW from the next
-				#Then Join this line and the next
-				#Then replace word_list
-				lines_list[index+1] = " "+lines_list[index+1]
-				lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
-				word_list = lines_list[index].split()
+		if ( (problem_words2[0].isdigit() < 8) and (':' not in problem_words2[0]) ):
+			print "Next_willB_Glitch:"+problem_words2[0]
+			#Add a space to the next so that it doesnt join the lastW from this list and firstW from the next
+			#Then Join this line and the next
+			#Then replace word_list
+			lines_list[index+1] = " "+lines_list[index+1]
+			lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
+			word_list = lines_list[index].split()
 
 
 	#not including C:V and starting on 0 index
