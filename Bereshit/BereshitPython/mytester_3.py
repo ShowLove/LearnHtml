@@ -23,9 +23,9 @@ def concatenateNext_string( index, lines_list, lines_list2, condition_String, re
 			#Add a space to the next so that it doesnt join the lastW from this list and firstW from the next
 			#Then Join this line and the next
 			#Then replace word_list
-			lines_list2[index+1] = " "+lines_list[index+1]
-			lines_list2[index:index+2] = [''.join(lines_list2[index:index+2])]
-			word_list = lines_list2[index].split()
+			lines_list[index+1] = " "+lines_list[index+1]
+			lines_list[index:index+2] = [''.join(lines_list[index:index+2])]
+			word_list = lines_list[index].split()
 			print "w1inConcatFunc("+word_list[0]+","+word_list[-1]+")"
 
 	return word_list
@@ -81,8 +81,20 @@ for index, var_list in enumerate(lines_list):
 	#get number of words in this verse
 	num_word_lists = len(lines_list)
 
-	#If current is a glitch
-	if ( (word_list[0].isdigit() < 8) and (':' not in word_list[0]) ):
+	#If current and next string is a glitch just join current with previous
+	if ( (word_list[0].isdigit() < 8) and (':' not in word_list[0]) ) and concatenateNext_string_TF( index, lines_list):
+		word_list = concatenateNext_string( index - 1, lines_list, lines_list2, "[cur&nextGlitch]", str(index) )
+		#Debug Info
+		new_word_list = lines_list[index].split()
+		print "Cur&NexGlitch-w1@curNewIndex("+new_word_list[0]+")"+"w1@main_W_List("+word_list[0]+")"
+	#Catches if NEXT string is a glitch 
+	elif concatenateNext_string_TF( index, lines_list):
+		word_list = concatenateNext_string( index, lines_list, lines_list2, "[nextGlitch]", str(index) )
+		#Debug Info
+		new_word_list = lines_list[index].split()
+		print "NextGlitch-w1@curNewIndex("+new_word_list[0]+")"+"w1@main_W_List("+word_list[0]+")"
+	#If current string is a glitch join it to previous
+	elif ( (word_list[0].isdigit() < 8) and (':' not in word_list[0]) ):
 		word_list = concatenateNext_string( index - 1, lines_list, lines_list2, "[curGlitch]", str(index) )
 		#Debug Info
 		new_word_list = lines_list[index].split()
@@ -108,8 +120,6 @@ for index, var_list in enumerate(lines_list):
 
 	#exit inner for loop		
 	write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
-
-	lines_list2 = lines_list
 
 # Close the FILE object in PYTHON
 write_file.close

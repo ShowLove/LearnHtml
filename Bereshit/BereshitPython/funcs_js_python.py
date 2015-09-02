@@ -67,7 +67,7 @@ def changeChapterLang_header():
   //switch between Heb and Transliteration or Eng and AHL"""+"\n\n")
 
 def changeChapterLang_condition1():  
-    write_file.write("""	//Change all text to either Hebrew or Transliteration
+    write_file.write("""	//Change all text to Hebrew and English
   if( idElement == 1){"""+"\n")
 
 #####################
@@ -82,7 +82,7 @@ def changeChapterLang_condition1n2_end():
     write_file.write("""	return false;}"""+"\n\n")
 
 def changeChapterLang_condition2():  
-    write_file.write("""	//Change all text to either English or AHL
+    write_file.write("""	//Change all text to Transliteration and English
   if( idElement == 2){"""+"\n")
 
  # GOES HERE --> changeword(..) <-- GOES HERE
