@@ -213,3 +213,74 @@ for index, var_list in enumerate(lines_list):
 
 # Close the FILE object in PYTHON
 write_file.close
+
+#################################Part 4###############################################
+######################################################################################
+# At this point option 1 and 2 Heb/Eng, Tranlit/Eng is written 
+######################################################################################
+#open the file
+input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt", "r")
+
+#read file into a list of lines
+lines_list = input_file.read().splitlines()
+
+# Close the File stream handler
+input_file.close()
+
+# The OPEN function returns a file object
+write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.js","a")
+
+#I need to declare this for first iteration of for loop or to make my code a bit clearer
+num_words = 0
+chapter_verse = "1_1"
+line = 0
+L1 = main_js_functions.L1	#HebTransliteration if word%4 = 3 or 4
+L2 = main_js_functions.L2	#EngAHL				if word%4 = 1 or 2
+language = L1
+
+######################################################################################
+# this loop should write ENG/AHL of switch_Eng_AHL func of js: 
+######################################################################################
+for index, var_list in enumerate(lines_list): 
+	#tric for splitin a string to a list of words
+	word_list = var_list.split()
+
+	line = 0
+	language = L1
+
+	##################################################################################
+	# One function per line. Each for loop writes functions for an entire verse
+	# This For loop should be doing switch_Eng_AHL
+	#################################################################################
+	for index, word in enumerate(word_list):
+		#Break if we find bad data
+		if word.isdigit():
+			if int(word) < 8 and index%4 != 2:	# AHL on 2 bad data would be on 1
+				break
+		#we found a new verse
+		if ':' in word:
+			chapter_verse = main_js_functions.remColon( word )
+
+		# line number: Lines should start at 1
+		# We are on a new line
+		if index%32 == 0:
+			line = line + 1
+			# If !firstLine write end to previous line 
+			if index != 0:
+				main_js_functions.end_switch_Eng_AHL(write_file, chapter_verse, str(line) )
+			main_js_functions.switch_func_comment( write_file )
+			main_js_functions.switch_Eng_AHL_header(write_file, chapter_verse, str(line) )
+			main_js_functions.dwr_comment_EA( write_file )
+
+		if index%4 == 2 and index != 0:# Hebrew: --> index + 1 = Translit 		#2				  #1
+			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index), chapter_verse, str(line), language )
+																#1					#2
+			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index), chapter_verse, str(line), language )
+
+	#exit inner for loop
+	#Last line did NOT have exactly 8 words
+	if index%8 != 0:
+		main_js_functions.end_switch_Eng_AHL(write_file, chapter_verse, str(line) )
+
+# Close the FILE object in PYTHON
+write_file.close
