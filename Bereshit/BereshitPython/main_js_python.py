@@ -48,6 +48,11 @@ for index, var_list in enumerate(lines_list):
 	# Parse a single line at a time
 	for index, word in enumerate(word_list):
 
+		#Break if we find bad data
+		if word.isdigit():
+			if int(word) < 8 and index%4 != 2:	# AHL on 2 bad data would be on 1
+				break
+
 		#we found a new verse
 		if ':' in word:
 			chapter_verse = main_js_functions.remColon( word )

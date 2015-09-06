@@ -234,13 +234,6 @@ function changeChapterLang(idElement){
       document.getElementById('divNum_43_1_10_6L1').innerHTML ="כִׁי";
       document.getElementById('divNum_45_1_10_6L2').innerHTML ="FUNCTIONAL";
       document.getElementById('divNum_47_1_10_6L1').innerHTML ="טוֹב";
-      document.getElementById('divNum_49_1_10_7L2').innerHTML ="1";
-      document.getElementById('divNum_51_1_10_7L1').innerHTML ="skies";
-      document.getElementById('divNum_53_1_10_7L2').innerHTML ="land";
-      document.getElementById('divNum_55_1_10_7L1').innerHTML =""fattened"";
-      document.getElementById('divNum_57_1_10_8L2').innerHTML ="the";
-      document.getElementById('divNum_59_1_10_8L1').innerHTML ="of";
-      document.getElementById('divNum_61_1_10_8L2').innerHTML =""filled";
       document.getElementById('divNum_1_1_11_1L2').innerHTML ="and~he~will~SAY(V)";
       document.getElementById('divNum_3_1_11_1L1').innerHTML ="וַיֹאמֶר";
       document.getElementById('divNum_5_1_11_1L2').innerHTML ="Elohiym";
