@@ -2,6 +2,10 @@
 
 import main_js_functions
 
+
+######################################################################################
+# This should set up Heb Eng of changeChapterLanguage porition of js
+######################################################################################
 #open the file
 input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt", "r")
 
@@ -13,7 +17,6 @@ input_file.close()
 
 # The OPEN function returns a file object
 write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.js","w")
-
 
 #I need to declare this for first iteration of for loop or to make my code a bit clearer
 num_words = 0
@@ -29,9 +32,11 @@ main_js_functions.changeChapterLang_header(write_file)
 # This loop will iterate condition 1
 main_js_functions.changeChapterLang_condition1(write_file)
 
-# At this point there should NOT be bad data
+######################################################################################
+# At this point there should NOT be bad data "But there was I add condition for this"
 # out_main_js should be formated
-# this loop should write L1 of changeChapterLanguage porition of js
+# this loop should write Heb Eng of changeChapterLanguage porition of js
+######################################################################################
 for index, var_list in enumerate(lines_list): 
 	#tric for splitin a string to a list of words
 	word_list = var_list.split()
@@ -47,33 +52,89 @@ for index, var_list in enumerate(lines_list):
 	line = 0
 	# Parse a single line at a time
 	for index, word in enumerate(word_list):
-
 		#Break if we find bad data
 		if word.isdigit():
 			if int(word) < 8 and index%4 != 2:	# AHL on 2 bad data would be on 1
 				break
-
 		#we found a new verse
 		if ':' in word:
 			chapter_verse = main_js_functions.remColon( word )
-
 		# line number
 		if index%8 == 0:
 			line = line + 1
-
 		# language
 		if index%4 == 3: #Hebrew
 			language = L1
 			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
-
 		if index%4 == 1: #English
 			language = L2
 			main_js_functions
 			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
-
-
 	#exit inner for loop		
-	#write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
+
+#Finished writing condition1 for ChangChapterLang close it 
+main_js_functions.changeChapterLang_condition1n2_end( write_file )
+
+# Close the FILE object in PYTHON
+write_file.close
+
+######################################################################################
+# this should set up Translit Eng portion of changeChapterLanguage porition of js
+# At this point option 1 Heb/Eng should be written we should be on option 2 Translit Eng
+# We are also appending to the file at this point and will continue doing so from here on out
+######################################################################################
+#open the file
+input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt", "r")
+
+#read file into a list of lines
+lines_list = input_file.read().splitlines()
+
+# Close the File stream handler
+input_file.close()
+
+# The OPEN function returns a file object
+write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.js","a")
+
+#I need to declare this for first iteration of for loop or to make my code a bit clearer
+num_words = 0
+chapter_verse = "1_1"
+line = 0
+L1 = main_js_functions.L1	#HebTransliteration if word%4 = 3 or 4
+L2 = main_js_functions.L2	#EngAHL				if word%4 = 1 or 2
+language = L1
+
+# This loop will iterate condition 2
+main_js_functions.changeChapterLang_condition2(write_file)
+
+######################################################################################
+# this loop should write Translit Eng of changeChapterLanguage porition of js
+######################################################################################
+for index, var_list in enumerate(lines_list): 
+	#tric for splitin a string to a list of words
+	word_list = var_list.split()
+
+	line = 0
+	# Parse a single line at a time
+	for index, word in enumerate(word_list):
+		#Break if we find bad data
+		if word.isdigit():
+			if int(word) < 8 and index%4 != 2:	# AHL on 2 bad data would be on 1
+				break
+		#we found a new verse
+		if ':' in word:
+			chapter_verse = main_js_functions.remColon( word )
+		# line number
+		if index%8 == 0:
+			line = line + 1
+		# language
+		if index%4 == 0: #Hebrew
+			language = L1
+			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
+		if index%4 == 1: #English
+			language = L2
+			main_js_functions
+			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
+	#exit inner for loop		
 
 #Finished writing condition1 for ChangChapterLang close it 
 main_js_functions.changeChapterLang_condition1n2_end( write_file )
