@@ -47,8 +47,8 @@ def dwr_comment_HT( write_file ):
 	write_file.write("\n"+"""	//1_Transliteration-->Heb 2_Heb_Transliteration""" + "\n")
 
 def dynamic_word_replace( write_file, orig_word, replacement_word, index, chapter_verse, line, lang1_or_lang2):
-	write_file.write("""    if( idElement == 1  &&  document.getElementById('divNum_"""+index+"_"+chapter_verse+"""').innerHTML == """+'"'+orig_word+""""){
-      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+"""').innerHTML ='"""+replacement_word+"""';""" + "\n")
+	write_file.write("""    if( idElement == 1  &&  document.getElementById('divNum_"""+index+"_"+chapter_verse+"""').innerHTML == """+'"'+orig_word+'"'+"""){
+      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+"""').innerHTML ="""+'"'+replacement_word+'"'+";" + "\n")
 
 def end_switch_Heb_Translit( write_file, chapter_verse, line):
 	write_file.write("\n"+"""} //End of """+switchL_funcName1+chapter_verse+"_"+line+"""function\n\n""")
