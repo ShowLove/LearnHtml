@@ -1,5 +1,9 @@
+# -*- coding: utf-8 -*-
+
+import main_js_functions
+
 #open the file
-input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/data_chapter1.txt", "r")
+input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt", "r")
 
 #read file into a list of lines
 lines_list = input_file.read().splitlines()
@@ -8,47 +12,29 @@ lines_list = input_file.read().splitlines()
 input_file.close()
 
 # The OPEN function returns a file object
-write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt","w")
+write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.js","w")
 
 
-##############################################################
-# not including C:V and starting on 0 index
-# len gives you the actual number not zero based hence the - 1
-# num_words  		= total words including Eng AHL Heb and Trans words
-# num_heb_words 	= 4 words = ("Eng AHL Heb and Trans") = 1 group, 1 heb word per group
-# num_lines     	= total lines - last line //assuming groups is not a multiple of 8
-# num_lines      	= real total number of lines after if statment
-# num_hebWords_on_lastLine =  self explanitory
-# fix_index 		= fixes glitch where new word_list is not a new line
-##############################################################
-
-#I need to declare this for first iteration of for loop
+#I need to declare this for first iteration of for loop or to make my code a bit clearer
 num_words = 0
+chapter_verse = "1_1"
+line = 0
+L1 = main_js_functions.L1	#HebTransliteration if word%4 = 3 or 4
+L2 = main_js_functions.L2	#EngAHL				if word%4 = 1 or 2
+language = L1
 
-# Writing a VARIABLE to file in for loop
+#write comment, header for changeChapterLanguage
+main_js_functions.changeChapterLang_comment(write_file)
+main_js_functions.changeChapterLang_header(write_file)
+# This loop will iterate condition 1
+main_js_functions.changeChapterLang_condition1(write_file)
+
+# At this point there should NOT be bad data
+# out_main_js should be formated
+# this loop should write L1 of changeChapterLanguage porition of js
 for index, var_list in enumerate(lines_list): 
 	#tric for splitin a string to a list of words
 	word_list = var_list.split()
-
-	#PART1: fixes glitch where new word_list is not a new line PART2	
-	# If next word_list is a glitch, prepare acordingly
-	#check this word_List is NOT: out of range, bad data, a verse
-	if index < len(lines_list) - 2: # !(out of range) I beleive this is precise
-		if not ( index == 0 and lines_list[index+1][0].isdigit() < 8 ) or ( lines_list[index+1][0] == 'The' and lines_list[index+1][1] == 'Mechanical' ) or ( lines_list[index+1][1] == 'Jeff' ):
-			if ( ':' not in lines_list[index+1][0] ):
-				#numWords contains previous word_list numwords value
-				#fix_index+1 because we dont want this word_list to start at zero
-				fix_index = num_words + 1;
-				fix_index_boolean = True
-
-	#PART2: Make this verse's logic a continuation of the last verse
-	if not ( index == 0 and lines_list[index][0].isdigit() < 8 ) or ( lines_list[index][0] == 'The' and lines_list[index][1] == 'Mechanical' ) or ( lines_list[index][1] == 'Jeff' ):
-		if ( index == 0 and ':' not in word ):
-			#numWords contains previous word_list numwords value
-			#fix_index+1 because we dont want this word_list to start at zero
-			fix_index = num_words + 1;
-			fix_index_boolean = True
-			print "\n\n--> !!This is a glitch!! <--"
 
 	num_words = len(word_list) - 1
 	num_heb_words = num_words/4
@@ -58,25 +44,34 @@ for index, var_list in enumerate(lines_list):
 	if num_hebWords_on_lastLine > 0 and num_words > 8:
 		num_lines = num_lines + 1
 
+	line = 0
 	# Parse a single line at a time
 	for index, word in enumerate(word_list):
-		#remove bad data
-		if len(word_list) > 1:
-			#Bad Data: References, Page Title, (c) //small poss that reff could be first 8 AHL
-			if ( index == 0 and word.isdigit() < 8 ) or ( word_list[0] == 'The' and word_list[1] == 'Mechanical' ) or ( word_list[1] == 'Jeff' ):
-				print "Bad Data"
-				break
-
 
 		#we found a new verse
 		if ':' in word:
-			print word+ "  "+"num:words, hebrew_words, num_Lines, num_hebWords_on_lastLine -->"+str(num_words)+","+str(num_heb_words)+","+str(num_lines)+","+str(num_hebWords_on_lastLine)+","+"\n"
-			write_file.write("\n"+word+"found verse!!\n")
+			chapter_verse = main_js_functions.remColon( word )
 
-		write_file.write(word+"("+str(index)+")")
+		# line number
+		if index%8 == 0:
+			line = line + 1
+
+		# language
+		if index%4 == 3: #Hebrew
+			language = L1
+			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
+
+		if index%4 == 1: #English
+			language = L2
+			main_js_functions
+			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
+
 
 	#exit inner for loop		
-	write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
+	#write_file.write("NumWordsInVerse("+str(num_words)+")"+"\n")
+
+#Finished writing condition1 for ChangChapterLang close it 
+main_js_functions.changeChapterLang_condition1n2_end( write_file )
 
 # Close the FILE object in PYTHON
 write_file.close
