@@ -140,6 +140,9 @@ for index, var_list in enumerate(lines_list):
 #Finished writing condition1 for ChangChapterLang close it 
 main_js_functions.changeChapterLang_condition1n2_end( write_file )
 
+#Done with both conditions close the changeChapterLang function
+main_js_functions.changeChapterLang_end( write_file )
+
 # Close the FILE object in PYTHON
 write_file.close
 

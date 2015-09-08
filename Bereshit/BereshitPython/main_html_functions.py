@@ -22,7 +22,7 @@ eight_w_verses2= "English_AHL"			# the eng and ahl numbers
 
 def remColon( chapterVerse ):
 	return chapterVerse.replace(":","_")
-	
+
 ######################################
 # Arguments
 ######################################
@@ -67,7 +67,7 @@ def lang1_newVerse( write_file ):
 
 def changeWord( write_file, index, chapter_verse, line, lang1_or_lang2, word):
 	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+lang1_or_lang2+"_"+line+""""
-			onclick="javascript:"""+switchL_funcName1+chapter_verse+"_"+line+"""(2); return false;">"""+'"'+word+""""</div>"""+"\n")
+			onclick="javascript:"""+switchL_funcName1+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+'"'+word+""""</div>"""+"\n")
 
 def end_lang1_2_divWrapper( write_file ):
 	write_file.write("""	</div>""" + "\n\n")
@@ -83,7 +83,7 @@ def lang2_newVerse( write_file ):
 
 def changeWord2( write_file, index, chapter_verse, line, lang1_or_lang2, word):
 	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+""""
-			onclick="javascript:"""+switchL_funcName2+chapter_verse+"_"+line+"""(2); return false;">"""+'"'+word+""""</div>"""+"\n")
+			onclick="javascript:"""+switchL_funcName2+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+'"'+word+""""</div>"""+"\n")
 
 def w_tail( write_file ):
 	write_file.write("""\n\n	<A NAME="32"> </A>
