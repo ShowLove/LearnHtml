@@ -1,0 +1,20 @@
+Main problems with output of my code
+	A.	None of the js is working
+	1.	The chapter and verse doesn't show up
+	2.	There isn't an orderly heb-->eng-->heb--> structure as expected
+		A.	This is obvious in the code. I'm writting a loop for the hebrew verse and a loop for the english verse.
+	##fixed kind of##3. 	The Divs dont stay all the way to the right .. wtf?
+	4. 	Everything has quotations
+
+Things I'm noticing about the .html file
+	1.	line 74(וְּרוּחַַ) is second hebrew div when it's suppost to be english
+		A.	This is obvious in the code. I'm writting a loop for the hebrew verse and a loop for the english verse.
+	##fixed##2.	line 87(and~the~LAND) starts a new div wrapper without closing the old one I also notice it goes back to Eng.
+
+Things I fixed
+	2.	line 87(and~the~LAND) starts a new div wrapper without closing the old one I also notice it goes back to Eng.
+		A. something wrong in main_html_python.py line_53 if index2%32 == 0 && index2 != 0 its not writing the end to the div when it's suppost to
+		F. changed main_html_python.py
+			#exit inner for loop
+			#Last line did NOT have exactly 8 words
+			if index3%32 != 0:

@@ -58,7 +58,7 @@ for index, var_list in enumerate(lines_list):
 			main_html_functions.lang1_header( write_file )
 			#We want to highlight the first verse
 			if index2 == 0:
-				main_html_functions.lang1_newVerse( write_file )
+				main_html_functions.lang1_newVerse( write_file, word_list[0] )
 
 
 		if index2%4 == 3 and index2 != 0: #Print divs for hebrew words
@@ -67,7 +67,7 @@ for index, var_list in enumerate(lines_list):
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
-	if index2%8 != 0:
+	if index2%32 != 0:
 		main_html_functions.end_lang1_2_divWrapper( write_file )
 
 	line = 0
@@ -94,10 +94,10 @@ for index, var_list in enumerate(lines_list):
 			# If !firstLine write end to previous line 
 			if index3 != 0:
 				main_html_functions.end_lang1_2_divWrapper( write_file )
-			main_html_functions.lang1_header( write_file )
+			main_html_functions.lang1_header( write_file,  )
 			#We want to highlight the first verse
 			if index3 == 0:
-				main_html_functions.lang1_newVerse( write_file )
+				main_html_functions.lang1_newVerse( write_file, word_list[0] )
 
 
 		if index3%4 == 1 and index3 != 0: #Print divs for Eng words
@@ -105,7 +105,7 @@ for index, var_list in enumerate(lines_list):
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
-	if index3%8 != 0:
+	if index3%32 != 0:
 		main_html_functions.end_lang1_2_divWrapper( write_file )
 
 

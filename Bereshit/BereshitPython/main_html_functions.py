@@ -62,8 +62,8 @@ def header( write_file ):
 def lang1_header( write_file ):
 	write_file.write("""	<div class="""+'"'+eight_w_verses+"""" style="width:100%; float:right;">""" +"\n")
 
-def lang1_newVerse( write_file ):
-	write_file.write("""		<div class="""+'"'+eight_w_verses_newV+""""> <strong>{בְּרֵאשִׁית}</strong> </div>"""+"\n")
+def lang1_newVerse( write_file, chapter_verse ):
+	write_file.write("""		<div class="""+'"'+eight_w_verses_newV+""""> <strong>{"""+chapter_verse+""" בְּרֵאשִׁית}</strong> </div>"""+"\n")
 
 def changeWord( write_file, index, chapter_verse, line, lang1_or_lang2, word):
 	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+lang1_or_lang2+"_"+line+""""
