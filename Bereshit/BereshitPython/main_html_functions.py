@@ -63,11 +63,11 @@ def lang1_header( write_file ):
 	write_file.write("""	<div class="""+'"'+eight_w_verses+"""" style="width:100%; float:right;">""" +"\n")
 
 def lang1_newVerse( write_file, chapter_verse ):
-	write_file.write("""		<div class="""+'"'+eight_w_verses_newV+""""> <strong>{"""+chapter_verse+""" בְּרֵאשִׁית}</strong> </div>"""+"\n")
+	write_file.write("""		<div class="""+'"'+eight_w_verses_newV+""""> <strong>{בְּרֵאשִׁית}</strong> </div>"""+"\n")
 
 def changeWord( write_file, index, chapter_verse, line, lang1_or_lang2, word):
-	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+lang1_or_lang2+"_"+line+""""
-			onclick="javascript:"""+switchL_funcName1+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+'"'+word+""""</div>"""+"\n")
+	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+"_"+lang1_or_lang2+"_"+line+""""
+			onclick="javascript:"""+switchL_funcName1+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+word+"""</div>"""+"\n")
 
 def end_lang1_2_divWrapper( write_file ):
 	write_file.write("""	</div>""" + "\n\n")
@@ -78,8 +78,8 @@ def end_lang1_2_divWrapper( write_file ):
 def lang2_header( write_file ):
 	write_file.write("""	<div class="""+'"'+eight_w_verses2+"""" style="width:100%; float:right;">""" +"\n")
 
-def lang2_newVerse( write_file ):
-	write_file.write("""		<div class="""+'"'+eight_w_verses_newV2+""""><strong>{1:1}</strong></div>"""+"\n")
+def lang2_newVerse( write_file, chapter_verse ):
+	write_file.write("""		<div class="""+'"'+eight_w_verses_newV2+""""><strong>{"""+chapter_verse+"""}</strong></div>"""+"\n")
 
 def changeWord2( write_file, index, chapter_verse, line, lang1_or_lang2, word):
 	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+""""

@@ -41,14 +41,15 @@ def switch_func_comment( write_file ):
 	write_file.write("""//functionName_cahpter_verse_line""" + "\n")
 
 def switch_Heb_Translit_header( write_file, chapter_verse, line):
-	write_file.write( switchL_funcName1+chapter_verse+"_"+line+"""(idElement){"""+"\n")
+	write_file.write( "function "+switchL_funcName1+chapter_verse+"_"+line+"""(idElement){"""+"\n")
 
 def dwr_comment_HT( write_file ):
 	write_file.write("\n"+"""	//1_Transliteration-->Heb 2_Heb_Transliteration""" + "\n")
 
 def dynamic_word_replace( write_file, orig_word, replacement_word, index, chapter_verse, line, lang1_or_lang2):
-	write_file.write("""    if( idElement == """+index+"""  &&  document.getElementById('divNum_"""+index+"_"+chapter_verse+"""').innerHTML == """+'"'+orig_word+'"'+"""){
-      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+"""').innerHTML ="""+'"'+replacement_word+'"'+";" + "\n")
+	write_file.write("""    if( idElement == """+index+"""  &&  document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+lang1_or_lang2+"_"+line+"""').innerHTML == """+'"'+orig_word+'"'+"""){
+      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+lang1_or_lang2+"_"+line+"""').innerHTML ="""+'"'+replacement_word+'"'+""";
+      return false;}""" + "\n")
 
 def end_switch_Heb_Translit( write_file, chapter_verse, line):
 	write_file.write("\n"+"""} //End of """+switchL_funcName1+chapter_verse+"_"+line+"""function\n\n""")
@@ -60,7 +61,7 @@ def end_switch_Heb_Translit( write_file, chapter_verse, line):
 # I already wrote switch function comment function <-- GOES HERE
 
 def switch_Eng_AHL_header( write_file, chapter_verse, line):
-	write_file.write( switchL_funcName2+chapter_verse+"_"+line+"""(idElement){"""+"\n")
+	write_file.write( "function "+switchL_funcName2+chapter_verse+"_"+line+"""(idElement){"""+"\n")
 
 def dwr_comment_EA( write_file ):
 	write_file.write("\n"+"""	//1_AHL-->ENG 2_ENG_AHL""" + "\n")

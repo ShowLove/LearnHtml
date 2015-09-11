@@ -149,6 +149,7 @@ write_file.close
 #################################Part 3###############################################
 ######################################################################################
 # At this point option 1 and 2 Heb/Eng, Tranlit/Eng is written 
+# This writes switch_Heb_Translit
 ######################################################################################
 #open the file
 input_file = open( "/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_js.txt", "r")
@@ -204,10 +205,10 @@ for index, var_list in enumerate(lines_list):
 			main_js_functions.switch_Heb_Translit_header(write_file, chapter_verse, str(line) )
 			main_js_functions.dwr_comment_HT( write_file )
 
-		if index%4 == 0 and index != 0:# Hebrew: --> index + 1 = Translit 		#4				  #3
-			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index), chapter_verse, str(line), language )
+		if index%4 == 0 and index != 0:# Hebrew: --> index + 1 = Translit 		#4				  #32  #(indx-1) so that we match js
+			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index - 1), chapter_verse, str(line), language )
 																#3					#4
-			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index), chapter_verse, str(line), language )
+			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index - 1), chapter_verse, str(line), language )
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
