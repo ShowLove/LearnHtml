@@ -2,6 +2,7 @@
 
 import main_html_functions
 
+#main_html_python.py#
 #################################Part 1###############################################
 ######################################################################################
 # This should set up Heb Eng of changeChapterLanguage porition of js
@@ -48,21 +49,25 @@ for index, var_list in enumerate(lines_list):
 		if ':' in word:
 			chapter_verse = main_html_functions.remColon( word )
 
+		# write the divs for each word
+		if index2%4 == 3 and index2 != 0: #Print divs for hebrew words
+			main_html_functions.changeWord( write_file, str(index2), chapter_verse, str(line), language, word)
+
 		# line number: Lines should start at 1
 		# We are on a new line
 		if index2%32 == 0:
 			line = line + 1
 			# If !firstLine write end to previous line 
-			if line != 1:
+			if index2 != 0:
 				main_html_functions.end_lang1_2_divWrapper( write_file )
-			main_html_functions.lang1_header( write_file )
-			#We want to highlight the first verse
-			if index2 == 0:
-				main_html_functions.lang1_newVerse( write_file, word_list[0] )
 
-
-		if index2%4 == 3 and index2 != 0: #Print divs for hebrew words
-			main_html_functions.changeWord( write_file, str(index2), chapter_verse, str(line), language, word)
+			#If we have no words left theres no use in writing headers
+			#index starts at 0 but len !zero_index
+			if (index2+1) < len(word_list):
+				main_html_functions.lang1_header( write_file )
+				#We want to highlight the first verse
+				if index2 == 0:
+					main_html_functions.lang1_newVerse( write_file, word_list[0] )
 
 
 	#exit inner for loop
@@ -87,6 +92,10 @@ for index, var_list in enumerate(lines_list):
 		if ':' in word:
 			chapter_verse = main_html_functions.remColon( word )
 
+		#Print divs for Eng words
+		if index3%4 == 1 and index3 != 0: 
+			main_html_functions.changeWord( write_file, str(index3), chapter_verse, str(line), language, word)
+
 		# line number: Lines should start at 1
 		# We are on a new line
 		if index3%32 == 0:
@@ -94,14 +103,15 @@ for index, var_list in enumerate(lines_list):
 			# If !firstLine write end to previous line 
 			if index3 != 0:
 				main_html_functions.end_lang1_2_divWrapper( write_file )
-			main_html_functions.lang2_header( write_file,  )
-			#We want to highlight the first verse
-			if index3 == 0:
-				main_html_functions.lang2_newVerse( write_file, word_list[0] )
 
+			#If we have no words left theres no use in writing headers
+			#index starts at 0 but len !zero_index
+			if (index3+1) < len(word_list):
+				main_html_functions.lang2_header( write_file,  )
+				#We want to highlight the first verse
+				if index3 == 0:
+					main_html_functions.lang2_newVerse( write_file, word_list[0] )
 
-		if index3%4 == 1 and index3 != 0: #Print divs for Eng words
-			main_html_functions.changeWord( write_file, str(index3), chapter_verse, str(line), language, word)
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words

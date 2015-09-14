@@ -2,6 +2,7 @@
 
 import main_js_functions
 
+#main_js_python.py#
 #################################Part 1###############################################
 ######################################################################################
 # This should set up Heb Eng of changeChapterLanguage porition of js
@@ -181,6 +182,8 @@ for index, var_list in enumerate(lines_list):
 	line = 0
 	language = L1
 
+	#print "\n\n---------------->switch_Heb_Translit LOOP<-------------------\n"	#DEBUG
+
 	##################################################################################
 	# One function per line. Each for loop writes functions for an entire verse
 	# This For loop should be doing switch_Heb_Translit
@@ -189,31 +192,48 @@ for index, var_list in enumerate(lines_list):
 		#Break if we find bad data
 		if word.isdigit():
 			if int(word) < 8 and index%4 != 2:	# AHL on 2 bad data would be on 1
+				#print "(break)",	#DEBUG
 				break
 		#we found a new verse
 		if ':' in word:
 			chapter_verse = main_js_functions.remColon( word )
+		# 	print "_" + word + "_" 	#DEBUG
+		# else:						#DEBUG
+		# 	print "->"+word+",index("+str(index)+")<--",	#DEBUG
+
+		#Write the word replace if statments inside the function
+		if index%4 == 0 and index != 0:# Hebrew: --> index + 1 = Translit 		#4				  #32  #(indx-1) so that we match js
+			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index - 1), chapter_verse, str(line), language )
+																#3					#4
+			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index - 1), chapter_verse, str(line), language )
+			#print "(replace:"+word_list[index]+","+word_list[index-1]+")",	#DEBUG
 
 		# line number: Lines should start at 1
 		# We are on a new line
 		if index%32 == 0:
 			line = line + 1
+			#print "(addLine: "+str(line)+")",	#DEBUG
+
 			# If !firstLine write end to previous line 
 			if index != 0:
 				main_js_functions.end_switch_Heb_Translit(write_file, chapter_verse, str(line) )
-			main_js_functions.switch_func_comment( write_file )
-			main_js_functions.switch_Heb_Translit_header(write_file, chapter_verse, str(line) )
-			main_js_functions.dwr_comment_HT( write_file )
+				#print "(end_Heb_Translit_func)",	#DEBUG
 
-		if index%4 == 0 and index != 0:# Hebrew: --> index + 1 = Translit 		#4				  #32  #(indx-1) so that we match js
-			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index - 1), chapter_verse, str(line), language )
-																#3					#4
-			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index - 1), chapter_verse, str(line), language )
+			#If we have no words left theres no use in writing headers
+			#index starts at 0 but len !zero_index
+			if (index+1) < len(word_list):
+				main_js_functions.switch_func_comment( write_file )
+				main_js_functions.switch_Heb_Translit_header(write_file, chapter_verse, str(line) )
+				main_js_functions.dwr_comment_HT( write_file )
+				#print "[printedHeaders:Index()"+str(index)+")wl_len("+str(len(word_list))+")]",	#DEBUG
+
+		#print "--(END_ITERATION)--\n",	#DEBUG
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
 	if index%32 != 0:
 		main_js_functions.end_switch_Heb_Translit(write_file, chapter_verse, str(line) )
+		#print "(Last_L_!8_words)",	#DEBUG
 
 # Close the FILE object in PYTHON
 write_file.close
@@ -265,6 +285,12 @@ for index, var_list in enumerate(lines_list):
 		if ':' in word:
 			chapter_verse = main_js_functions.remColon( word )
 
+		#Write the word replace if statments, inside the function
+		if index%4 == 2 and index != 0:# Hebrew: --> index + 1 = Translit 		#2				  #1
+			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index), chapter_verse, str(line), language )
+																#1					#2
+			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index), chapter_verse, str(line), language )
+
 		# line number: Lines should start at 1
 		# We are on a new line
 		if index%32 == 0:
@@ -272,18 +298,17 @@ for index, var_list in enumerate(lines_list):
 			# If !firstLine write end to previous line 
 			if index != 0:
 				main_js_functions.end_switch_Eng_AHL(write_file, chapter_verse, str(line) )
-			main_js_functions.switch_func_comment( write_file )
-			main_js_functions.switch_Eng_AHL_header(write_file, chapter_verse, str(line) )
-			main_js_functions.dwr_comment_EA( write_file )
 
-		if index%4 == 2 and index != 0:# Hebrew: --> index + 1 = Translit 		#2				  #1
-			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index), chapter_verse, str(line), language )
-																#1					#2
-			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index), chapter_verse, str(line), language )
+			#If we have no words left theres no use in writing headers
+			#index starts at 0 but len !zero_index
+			if (index+1) < len(word_list):
+				main_js_functions.switch_func_comment( write_file )
+				main_js_functions.switch_Eng_AHL_header(write_file, chapter_verse, str(line) )
+				main_js_functions.dwr_comment_EA( write_file )
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
-	if index%8 != 0:
+	if index%32 != 0:
 		main_js_functions.end_switch_Eng_AHL(write_file, chapter_verse, str(line) )
 
 # Close the FILE object in PYTHON
