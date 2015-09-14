@@ -53,7 +53,7 @@ for index, var_list in enumerate(lines_list):
 		if index2%32 == 0:
 			line = line + 1
 			# If !firstLine write end to previous line 
-			if index2 != 0:
+			if line != 1:
 				main_html_functions.end_lang1_2_divWrapper( write_file )
 			main_html_functions.lang1_header( write_file )
 			#We want to highlight the first verse

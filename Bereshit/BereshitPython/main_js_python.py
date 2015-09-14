@@ -212,7 +212,7 @@ for index, var_list in enumerate(lines_list):
 
 	#exit inner for loop
 	#Last line did NOT have exactly 8 words
-	if index%8 != 0:
+	if index%32 != 0:
 		main_js_functions.end_switch_Heb_Translit(write_file, chapter_verse, str(line) )
 
 # Close the FILE object in PYTHON

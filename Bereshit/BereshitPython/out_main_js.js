@@ -1843,6 +1843,12 @@ function switch_Heb_Translit_1_2_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_2_L1_1').innerHTML == "פְּנֵי"){
       document.getElementById('divNum_27_1_2_L1_1').innerHTML ="pê'ney";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_2_L1_1').innerHTML == "tê'hom"){
+      document.getElementById('divNum_31_1_2_L1_1').innerHTML ="תְּהוֹם";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_2_L1_1').innerHTML == "תְּהוֹם"){
+      document.getElementById('divNum_31_1_2_L1_1').innerHTML ="tê'hom";
+      return false;}
 
 } //End of switch_Heb_Translit_1_2_2function
 
@@ -1850,12 +1856,6 @@ function switch_Heb_Translit_1_2_1(idElement){
 function switch_Heb_Translit_1_2_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_2_L1_2').innerHTML == "tê'hom"){
-      document.getElementById('divNum_31_1_2_L1_2').innerHTML ="תְּהוֹם";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_2_L1_2').innerHTML == "תְּהוֹם"){
-      document.getElementById('divNum_31_1_2_L1_2').innerHTML ="tê'hom";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_2_L1_2').innerHTML == "wê'ru'ahh"){
       document.getElementById('divNum_35_1_2_L1_2').innerHTML ="וְּרוּחַַ";
       return false;}
@@ -1892,6 +1892,9 @@ function switch_Heb_Translit_1_2_2(idElement){
     if( idElement == 55  &&  document.getElementById('divNum_55_1_2_L1_2').innerHTML == "הַמָּיִׁם"){
       document.getElementById('divNum_55_1_2_L1_2').innerHTML ="ha'ma'yim";
       return false;}
+
+} //End of switch_Heb_Translit_1_2_2function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_3_1(idElement){
 
@@ -1932,6 +1935,9 @@ function switch_Heb_Translit_1_3_1(idElement){
     if( idElement == 23  &&  document.getElementById('divNum_23_1_3_L1_1').innerHTML == "אוֹר"){
       document.getElementById('divNum_23_1_3_L1_1').innerHTML ="or";
       return false;}
+
+} //End of switch_Heb_Translit_1_3_1function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_4_1(idElement){
 
@@ -1978,6 +1984,12 @@ function switch_Heb_Translit_1_4_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_4_L1_1').innerHTML == "וַיַבְּדֵל"){
       document.getElementById('divNum_27_1_4_L1_1').innerHTML ="wai'yav'deyl";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_4_L1_1').innerHTML == "e'lo'him"){
+      document.getElementById('divNum_31_1_4_L1_1').innerHTML ="אֱלֹהִׁים";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_4_L1_1').innerHTML == "אֱלֹהִׁים"){
+      document.getElementById('divNum_31_1_4_L1_1').innerHTML ="e'lo'him";
+      return false;}
 
 } //End of switch_Heb_Translit_1_4_2function
 
@@ -1985,12 +1997,6 @@ function switch_Heb_Translit_1_4_1(idElement){
 function switch_Heb_Translit_1_4_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_4_L1_2').innerHTML == "e'lo'him"){
-      document.getElementById('divNum_31_1_4_L1_2').innerHTML ="אֱלֹהִׁים";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_4_L1_2').innerHTML == "אֱלֹהִׁים"){
-      document.getElementById('divNum_31_1_4_L1_2').innerHTML ="e'lo'him";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_4_L1_2').innerHTML == "beyn"){
       document.getElementById('divNum_35_1_4_L1_2').innerHTML ="בֵין";
       return false;}
@@ -2015,6 +2021,9 @@ function switch_Heb_Translit_1_4_2(idElement){
     if( idElement == 47  &&  document.getElementById('divNum_47_1_4_L1_2').innerHTML == "הַחֹשֶךְ"){
       document.getElementById('divNum_47_1_4_L1_2').innerHTML ="ha'hho'shekh";
       return false;}
+
+} //End of switch_Heb_Translit_1_4_2function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_5_1(idElement){
 
@@ -2061,6 +2070,12 @@ function switch_Heb_Translit_1_5_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_5_L1_1').innerHTML == "לָּיְּלָּה"){
       document.getElementById('divNum_27_1_5_L1_1').innerHTML ="lai'lah";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_5_L1_1').innerHTML == "wai'hi"){
+      document.getElementById('divNum_31_1_5_L1_1').innerHTML ="וַיְּהִׁי";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_5_L1_1').innerHTML == "וַיְּהִׁי"){
+      document.getElementById('divNum_31_1_5_L1_1').innerHTML ="wai'hi";
+      return false;}
 
 } //End of switch_Heb_Translit_1_5_2function
 
@@ -2068,12 +2083,6 @@ function switch_Heb_Translit_1_5_1(idElement){
 function switch_Heb_Translit_1_5_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_5_L1_2').innerHTML == "wai'hi"){
-      document.getElementById('divNum_31_1_5_L1_2').innerHTML ="וַיְּהִׁי";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_5_L1_2').innerHTML == "וַיְּהִׁי"){
-      document.getElementById('divNum_31_1_5_L1_2').innerHTML ="wai'hi";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_5_L1_2').innerHTML == "e'rev"){
       document.getElementById('divNum_35_1_5_L1_2').innerHTML ="עֶרֶב";
       return false;}
@@ -2153,6 +2162,12 @@ function switch_Heb_Translit_1_6_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_6_L1_1').innerHTML == "וִׁיהִׁי"){
       document.getElementById('divNum_27_1_6_L1_1').innerHTML ="wi'hi";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_6_L1_1').innerHTML == "mav'dil"){
+      document.getElementById('divNum_31_1_6_L1_1').innerHTML ="מַבְּדִׁיל";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_6_L1_1').innerHTML == "מַבְּדִׁיל"){
+      document.getElementById('divNum_31_1_6_L1_1').innerHTML ="mav'dil";
+      return false;}
 
 } //End of switch_Heb_Translit_1_6_2function
 
@@ -2160,12 +2175,6 @@ function switch_Heb_Translit_1_6_1(idElement){
 function switch_Heb_Translit_1_6_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_6_L1_2').innerHTML == "mav'dil"){
-      document.getElementById('divNum_31_1_6_L1_2').innerHTML ="מַבְּדִׁיל";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_6_L1_2').innerHTML == "מַבְּדִׁיל"){
-      document.getElementById('divNum_31_1_6_L1_2').innerHTML ="mav'dil";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_6_L1_2').innerHTML == "beyn"){
       document.getElementById('divNum_35_1_6_L1_2').innerHTML ="בֵין";
       return false;}
@@ -2233,6 +2242,12 @@ function switch_Heb_Translit_1_7_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_7_L1_1').innerHTML == "הַמַיִׁם"){
       document.getElementById('divNum_27_1_7_L1_1').innerHTML ="ha'ma'yim";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_7_L1_1').innerHTML == "a'sher"){
+      document.getElementById('divNum_31_1_7_L1_1').innerHTML ="אֲשֶר";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_7_L1_1').innerHTML == "אֲשֶר"){
+      document.getElementById('divNum_31_1_7_L1_1').innerHTML ="a'sher";
+      return false;}
 
 } //End of switch_Heb_Translit_1_7_2function
 
@@ -2240,12 +2255,6 @@ function switch_Heb_Translit_1_7_1(idElement){
 function switch_Heb_Translit_1_7_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_7_L1_2').innerHTML == "a'sher"){
-      document.getElementById('divNum_31_1_7_L1_2').innerHTML ="אֲשֶר";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_7_L1_2').innerHTML == "אֲשֶר"){
-      document.getElementById('divNum_31_1_7_L1_2').innerHTML ="a'sher";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_7_L1_2').innerHTML == "mi'ta'hhat"){
       document.getElementById('divNum_35_1_7_L1_2').innerHTML ="מִׁתַחַת";
       return false;}
@@ -2288,6 +2297,12 @@ function switch_Heb_Translit_1_7_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_7_L1_2').innerHTML == "לָּרָּקִׁיעַַ"){
       document.getElementById('divNum_59_1_7_L1_2').innerHTML ="la'ra'qi'a";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_7_L1_2').innerHTML == "wai'hi"){
+      document.getElementById('divNum_63_1_7_L1_2').innerHTML ="וַיְּהִׁי";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_7_L1_2').innerHTML == "וַיְּהִׁי"){
+      document.getElementById('divNum_63_1_7_L1_2').innerHTML ="wai'hi";
+      return false;}
 
 } //End of switch_Heb_Translit_1_7_3function
 
@@ -2295,12 +2310,6 @@ function switch_Heb_Translit_1_7_2(idElement){
 function switch_Heb_Translit_1_7_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_7_L1_3').innerHTML == "wai'hi"){
-      document.getElementById('divNum_63_1_7_L1_3').innerHTML ="וַיְּהִׁי";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_7_L1_3').innerHTML == "וַיְּהִׁי"){
-      document.getElementById('divNum_63_1_7_L1_3').innerHTML ="wai'hi";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_7_L1_3').innerHTML == "kheyn2"){
       document.getElementById('divNum_67_1_7_L1_3').innerHTML ="כֵן";
       return false;}
@@ -2356,6 +2365,12 @@ function switch_Heb_Translit_1_8_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_8_L1_1').innerHTML == "וַיְּהִׁי"){
       document.getElementById('divNum_27_1_8_L1_1').innerHTML ="wai'hi";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_8_L1_1').innerHTML == "vo'qer"){
+      document.getElementById('divNum_31_1_8_L1_1').innerHTML ="בֹקֶר";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_8_L1_1').innerHTML == "בֹקֶר"){
+      document.getElementById('divNum_31_1_8_L1_1').innerHTML ="vo'qer";
+      return false;}
 
 } //End of switch_Heb_Translit_1_8_2function
 
@@ -2363,12 +2378,6 @@ function switch_Heb_Translit_1_8_1(idElement){
 function switch_Heb_Translit_1_8_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_8_L1_2').innerHTML == "vo'qer"){
-      document.getElementById('divNum_31_1_8_L1_2').innerHTML ="בֹקֶר";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_8_L1_2').innerHTML == "בֹקֶר"){
-      document.getElementById('divNum_31_1_8_L1_2').innerHTML ="vo'qer";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_8_L1_2').innerHTML == "yom"){
       document.getElementById('divNum_35_1_8_L1_2').innerHTML ="יוֹם";
       return false;}
@@ -2381,6 +2390,9 @@ function switch_Heb_Translit_1_8_2(idElement){
     if( idElement == 39  &&  document.getElementById('divNum_39_1_8_L1_2').innerHTML == "שֵנִׁי"){
       document.getElementById('divNum_39_1_8_L1_2').innerHTML ="shey'ni";
       return false;}
+
+} //End of switch_Heb_Translit_1_8_2function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_9_1(idElement){
 
@@ -2427,6 +2439,12 @@ function switch_Heb_Translit_1_9_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_9_L1_1').innerHTML == "אֶל"){
       document.getElementById('divNum_27_1_9_L1_1').innerHTML ="el";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_9_L1_1').innerHTML == "ma'qom"){
+      document.getElementById('divNum_31_1_9_L1_1').innerHTML ="מָּקוֹם";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_9_L1_1').innerHTML == "מָּקוֹם"){
+      document.getElementById('divNum_31_1_9_L1_1').innerHTML ="ma'qom";
+      return false;}
 
 } //End of switch_Heb_Translit_1_9_2function
 
@@ -2434,12 +2452,6 @@ function switch_Heb_Translit_1_9_1(idElement){
 function switch_Heb_Translit_1_9_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_9_L1_2').innerHTML == "ma'qom"){
-      document.getElementById('divNum_31_1_9_L1_2').innerHTML ="מָּקוֹם";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_9_L1_2').innerHTML == "מָּקוֹם"){
-      document.getElementById('divNum_31_1_9_L1_2').innerHTML ="ma'qom";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_9_L1_2').innerHTML == "e'hhad"){
       document.getElementById('divNum_35_1_9_L1_2').innerHTML ="אֶחָּד";
       return false;}
@@ -2519,6 +2531,12 @@ function switch_Heb_Translit_1_10_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_10_L1_1').innerHTML == "קָּרָּא"){
       document.getElementById('divNum_27_1_10_L1_1').innerHTML ="qa'ra";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_10_L1_1').innerHTML == "ya'mim"){
+      document.getElementById('divNum_31_1_10_L1_1').innerHTML ="יַמִׁים";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_10_L1_1').innerHTML == "יַמִׁים"){
+      document.getElementById('divNum_31_1_10_L1_1').innerHTML ="ya'mim";
+      return false;}
 
 } //End of switch_Heb_Translit_1_10_2function
 
@@ -2526,12 +2544,6 @@ function switch_Heb_Translit_1_10_1(idElement){
 function switch_Heb_Translit_1_10_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_10_L1_2').innerHTML == "ya'mim"){
-      document.getElementById('divNum_31_1_10_L1_2').innerHTML ="יַמִׁים";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_10_L1_2').innerHTML == "יַמִׁים"){
-      document.getElementById('divNum_31_1_10_L1_2').innerHTML ="ya'mim";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_10_L1_2').innerHTML == "wai'yar"){
       document.getElementById('divNum_35_1_10_L1_2').innerHTML ="וַיַרְּא";
       return false;}
@@ -2605,6 +2617,12 @@ function switch_Heb_Translit_1_11_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_11_L1_1').innerHTML == "מַזְּרִׁיעַַ"){
       document.getElementById('divNum_27_1_11_L1_1').innerHTML ="maz'ri'a";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_11_L1_1').innerHTML == "ze'ra"){
+      document.getElementById('divNum_31_1_11_L1_1').innerHTML ="זֶרַע";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_11_L1_1').innerHTML == "זֶרַע"){
+      document.getElementById('divNum_31_1_11_L1_1').innerHTML ="ze'ra";
+      return false;}
 
 } //End of switch_Heb_Translit_1_11_2function
 
@@ -2612,12 +2630,6 @@ function switch_Heb_Translit_1_11_1(idElement){
 function switch_Heb_Translit_1_11_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_11_L1_2').innerHTML == "ze'ra"){
-      document.getElementById('divNum_31_1_11_L1_2').innerHTML ="זֶרַע";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_11_L1_2').innerHTML == "זֶרַע"){
-      document.getElementById('divNum_31_1_11_L1_2').innerHTML ="ze'ra";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_11_L1_2').innerHTML == "eyts"){
       document.getElementById('divNum_35_1_11_L1_2').innerHTML ="עֵץ";
       return false;}
@@ -2660,6 +2672,12 @@ function switch_Heb_Translit_1_11_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_11_L1_2').innerHTML == "זַרְּעוַֹ"){
       document.getElementById('divNum_59_1_11_L1_2').innerHTML ="zar'o";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_11_L1_2').innerHTML == "UPON"){
+      document.getElementById('divNum_63_1_11_L1_2').innerHTML ="vo";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_11_L1_2').innerHTML == "vo"){
+      document.getElementById('divNum_63_1_11_L1_2').innerHTML ="UPON";
+      return false;}
 
 } //End of switch_Heb_Translit_1_11_3function
 
@@ -2667,12 +2685,6 @@ function switch_Heb_Translit_1_11_2(idElement){
 function switch_Heb_Translit_1_11_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_11_L1_3').innerHTML == "UPON"){
-      document.getElementById('divNum_63_1_11_L1_3').innerHTML ="vo";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_11_L1_3').innerHTML == "vo"){
-      document.getElementById('divNum_63_1_11_L1_3').innerHTML ="UPON";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_11_L1_3').innerHTML == "the~LAND"){
       document.getElementById('divNum_67_1_11_L1_3').innerHTML ="al";
       return false;}
@@ -2740,6 +2752,12 @@ function switch_Heb_Translit_1_12_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_12_L1_1').innerHTML == "לְּמִׁינֵהוּ"){
       document.getElementById('divNum_27_1_12_L1_1').innerHTML ="lê'mi'ney'hu";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_12_L1_1').innerHTML == "wê'eyts"){
+      document.getElementById('divNum_31_1_12_L1_1').innerHTML ="וְּעֵץ";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_12_L1_1').innerHTML == "וְּעֵץ"){
+      document.getElementById('divNum_31_1_12_L1_1').innerHTML ="wê'eyts";
+      return false;}
 
 } //End of switch_Heb_Translit_1_12_2function
 
@@ -2747,12 +2765,6 @@ function switch_Heb_Translit_1_12_1(idElement){
 function switch_Heb_Translit_1_12_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_12_L1_2').innerHTML == "wê'eyts"){
-      document.getElementById('divNum_31_1_12_L1_2').innerHTML ="וְּעֵץ";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_12_L1_2').innerHTML == "וְּעֵץ"){
-      document.getElementById('divNum_31_1_12_L1_2').innerHTML ="wê'eyts";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_12_L1_2').innerHTML == "o'seh"){
       document.getElementById('divNum_35_1_12_L1_2').innerHTML ="עֹשֶׂה";
       return false;}
@@ -2795,6 +2807,12 @@ function switch_Heb_Translit_1_12_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_12_L1_2').innerHTML == "wai'yar"){
       document.getElementById('divNum_59_1_12_L1_2').innerHTML ="Elohiym";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_12_L1_2').innerHTML == "GIVEN.THAT"){
+      document.getElementById('divNum_63_1_12_L1_2').innerHTML ="e'lo'him";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_12_L1_2').innerHTML == "e'lo'him"){
+      document.getElementById('divNum_63_1_12_L1_2').innerHTML ="GIVEN.THAT";
+      return false;}
 
 } //End of switch_Heb_Translit_1_12_3function
 
@@ -2802,12 +2820,6 @@ function switch_Heb_Translit_1_12_2(idElement){
 function switch_Heb_Translit_1_12_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_12_L1_3').innerHTML == "GIVEN.THAT"){
-      document.getElementById('divNum_63_1_12_L1_3').innerHTML ="e'lo'him";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_12_L1_3').innerHTML == "e'lo'him"){
-      document.getElementById('divNum_63_1_12_L1_3').innerHTML ="GIVEN.THAT";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_12_L1_3').innerHTML == "FUNCTIONAL"){
       document.getElementById('divNum_67_1_12_L1_3').innerHTML ="ki";
       return false;}
@@ -2857,6 +2869,9 @@ function switch_Heb_Translit_1_13_1(idElement){
     if( idElement == 23  &&  document.getElementById('divNum_23_1_13_L1_1').innerHTML == "שְּלִׁישִׁי"){
       document.getElementById('divNum_23_1_13_L1_1').innerHTML ="shê'li'shi2";
       return false;}
+
+} //End of switch_Heb_Translit_1_13_1function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_14_1(idElement){
 
@@ -2903,6 +2918,12 @@ function switch_Heb_Translit_1_14_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_14_L1_1').innerHTML == "לְּהַבְּדִׁיל"){
       document.getElementById('divNum_27_1_14_L1_1').innerHTML ="lê'hav'dil";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_14_L1_1').innerHTML == "beyn"){
+      document.getElementById('divNum_31_1_14_L1_1').innerHTML ="בֵין";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_14_L1_1').innerHTML == "בֵין"){
+      document.getElementById('divNum_31_1_14_L1_1').innerHTML ="beyn";
+      return false;}
 
 } //End of switch_Heb_Translit_1_14_2function
 
@@ -2910,12 +2931,6 @@ function switch_Heb_Translit_1_14_1(idElement){
 function switch_Heb_Translit_1_14_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_14_L1_2').innerHTML == "beyn"){
-      document.getElementById('divNum_31_1_14_L1_2').innerHTML ="בֵין";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_14_L1_2').innerHTML == "בֵין"){
-      document.getElementById('divNum_31_1_14_L1_2').innerHTML ="beyn";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_14_L1_2').innerHTML == "hai'yom"){
       document.getElementById('divNum_35_1_14_L1_2').innerHTML ="הַיוֹם";
       return false;}
@@ -2958,19 +2973,15 @@ function switch_Heb_Translit_1_14_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_14_L1_2').innerHTML == "וּלְּיָּמִׁים"){
       document.getElementById('divNum_59_1_14_L1_2').innerHTML ="ul'ya'mim";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_14_L1_2').innerHTML == "wê'sha'nim"){
+      document.getElementById('divNum_63_1_14_L1_2').innerHTML ="וְּשָּנִׁים";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_14_L1_2').innerHTML == "וְּשָּנִׁים"){
+      document.getElementById('divNum_63_1_14_L1_2').innerHTML ="wê'sha'nim";
+      return false;}
 
 } //End of switch_Heb_Translit_1_14_3function
 
-//functionName_cahpter_verse_line
-function switch_Heb_Translit_1_14_3(idElement){
-
-	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_14_L1_3').innerHTML == "wê'sha'nim"){
-      document.getElementById('divNum_63_1_14_L1_3').innerHTML ="וְּשָּנִׁים";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_14_L1_3').innerHTML == "וְּשָּנִׁים"){
-      document.getElementById('divNum_63_1_14_L1_3').innerHTML ="wê'sha'nim";
-      return false;}
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_15_1(idElement){
 
@@ -3017,6 +3028,12 @@ function switch_Heb_Translit_1_15_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_15_L1_1').innerHTML == "הָּאָרֶץ"){
       document.getElementById('divNum_27_1_15_L1_1').innerHTML ="ha'a'rets";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_15_L1_1').innerHTML == "wai'hi"){
+      document.getElementById('divNum_31_1_15_L1_1').innerHTML ="וַיְּהִׁי";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_15_L1_1').innerHTML == "וַיְּהִׁי"){
+      document.getElementById('divNum_31_1_15_L1_1').innerHTML ="wai'hi";
+      return false;}
 
 } //End of switch_Heb_Translit_1_15_2function
 
@@ -3024,12 +3041,6 @@ function switch_Heb_Translit_1_15_1(idElement){
 function switch_Heb_Translit_1_15_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_15_L1_2').innerHTML == "wai'hi"){
-      document.getElementById('divNum_31_1_15_L1_2').innerHTML ="וַיְּהִׁי";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_15_L1_2').innerHTML == "וַיְּהִׁי"){
-      document.getElementById('divNum_31_1_15_L1_2').innerHTML ="wai'hi";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_15_L1_2').innerHTML == "kheyn3"){
       document.getElementById('divNum_35_1_15_L1_2').innerHTML ="כֵן";
       return false;}
@@ -3085,6 +3096,12 @@ function switch_Heb_Translit_1_16_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_16_L1_1').innerHTML == "אֶת"){
       document.getElementById('divNum_27_1_16_L1_1').innerHTML ="et";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_16_L1_1').innerHTML == "ha'ma'or"){
+      document.getElementById('divNum_31_1_16_L1_1').innerHTML ="הַמָּאוֹר";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_16_L1_1').innerHTML == "הַמָּאוֹר"){
+      document.getElementById('divNum_31_1_16_L1_1').innerHTML ="ha'ma'or";
+      return false;}
 
 } //End of switch_Heb_Translit_1_16_2function
 
@@ -3092,12 +3109,6 @@ function switch_Heb_Translit_1_16_1(idElement){
 function switch_Heb_Translit_1_16_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_16_L1_2').innerHTML == "ha'ma'or"){
-      document.getElementById('divNum_31_1_16_L1_2').innerHTML ="הַמָּאוֹר";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_16_L1_2').innerHTML == "הַמָּאוֹר"){
-      document.getElementById('divNum_31_1_16_L1_2').innerHTML ="ha'ma'or";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_16_L1_2').innerHTML == "ha'ga'dol"){
       document.getElementById('divNum_35_1_16_L1_2').innerHTML ="הַגָּדֹל";
       return false;}
@@ -3140,6 +3151,12 @@ function switch_Heb_Translit_1_16_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_16_L1_2').innerHTML == "לְּמֶמְּשֶלֶת"){
       document.getElementById('divNum_59_1_16_L1_2').innerHTML ="lê'mem'she'let";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_16_L1_2').innerHTML == "ha'lai'lah"){
+      document.getElementById('divNum_63_1_16_L1_2').innerHTML ="הַלַיְּלָּה";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_16_L1_2').innerHTML == "הַלַיְּלָּה"){
+      document.getElementById('divNum_63_1_16_L1_2').innerHTML ="ha'lai'lah";
+      return false;}
 
 } //End of switch_Heb_Translit_1_16_3function
 
@@ -3147,12 +3164,6 @@ function switch_Heb_Translit_1_16_2(idElement){
 function switch_Heb_Translit_1_16_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_16_L1_3').innerHTML == "ha'lai'lah"){
-      document.getElementById('divNum_63_1_16_L1_3').innerHTML ="הַלַיְּלָּה";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_16_L1_3').innerHTML == "הַלַיְּלָּה"){
-      document.getElementById('divNum_63_1_16_L1_3').innerHTML ="ha'lai'lah";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_16_L1_3').innerHTML == "wê'eyt"){
       document.getElementById('divNum_67_1_16_L1_3').innerHTML ="וְּאֵת";
       return false;}
@@ -3165,6 +3176,9 @@ function switch_Heb_Translit_1_16_3(idElement){
     if( idElement == 71  &&  document.getElementById('divNum_71_1_16_L1_3').innerHTML == "הַכוֹכָּבִׁים"){
       document.getElementById('divNum_71_1_16_L1_3').innerHTML ="ha'ko'kha'vim4";
       return false;}
+
+} //End of switch_Heb_Translit_1_16_3function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_17_1(idElement){
 
@@ -3211,19 +3225,15 @@ function switch_Heb_Translit_1_17_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_17_L1_1').innerHTML == "עַל"){
       document.getElementById('divNum_27_1_17_L1_1').innerHTML ="al";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_17_L1_1').innerHTML == "ha'a'rets"){
+      document.getElementById('divNum_31_1_17_L1_1').innerHTML ="הָּאָרֶץ";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_17_L1_1').innerHTML == "הָּאָרֶץ"){
+      document.getElementById('divNum_31_1_17_L1_1').innerHTML ="ha'a'rets";
+      return false;}
 
 } //End of switch_Heb_Translit_1_17_2function
 
-//functionName_cahpter_verse_line
-function switch_Heb_Translit_1_17_2(idElement){
-
-	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_17_L1_2').innerHTML == "ha'a'rets"){
-      document.getElementById('divNum_31_1_17_L1_2').innerHTML ="הָּאָרֶץ";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_17_L1_2').innerHTML == "הָּאָרֶץ"){
-      document.getElementById('divNum_31_1_17_L1_2').innerHTML ="ha'a'rets";
-      return false;}
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_18_1(idElement){
 
@@ -3270,6 +3280,12 @@ function switch_Heb_Translit_1_18_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_18_L1_1').innerHTML == "וּבֵין"){
       document.getElementById('divNum_27_1_18_L1_1').innerHTML ="u'veyn";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_18_L1_1').innerHTML == "ha'hho'shekh"){
+      document.getElementById('divNum_31_1_18_L1_1').innerHTML ="הַחֹשֶךְ";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_18_L1_1').innerHTML == "הַחֹשֶךְ"){
+      document.getElementById('divNum_31_1_18_L1_1').innerHTML ="ha'hho'shekh";
+      return false;}
 
 } //End of switch_Heb_Translit_1_18_2function
 
@@ -3277,12 +3293,6 @@ function switch_Heb_Translit_1_18_1(idElement){
 function switch_Heb_Translit_1_18_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_18_L1_2').innerHTML == "ha'hho'shekh"){
-      document.getElementById('divNum_31_1_18_L1_2').innerHTML ="הַחֹשֶךְ";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_18_L1_2').innerHTML == "הַחֹשֶךְ"){
-      document.getElementById('divNum_31_1_18_L1_2').innerHTML ="ha'hho'shekh";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_18_L1_2').innerHTML == "wai'yar"){
       document.getElementById('divNum_35_1_18_L1_2').innerHTML ="וַיַרְּא";
       return false;}
@@ -3307,6 +3317,9 @@ function switch_Heb_Translit_1_18_2(idElement){
     if( idElement == 47  &&  document.getElementById('divNum_47_1_18_L1_2').innerHTML == "טוֹב"){
       document.getElementById('divNum_47_1_18_L1_2').innerHTML ="tov";
       return false;}
+
+} //End of switch_Heb_Translit_1_18_2function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_19_1(idElement){
 
@@ -3347,6 +3360,9 @@ function switch_Heb_Translit_1_19_1(idElement){
     if( idElement == 23  &&  document.getElementById('divNum_23_1_19_L1_1').innerHTML == "רְּבִׁיעִׁי"){
       document.getElementById('divNum_23_1_19_L1_1').innerHTML ="rê'vi'i";
       return false;}
+
+} //End of switch_Heb_Translit_1_19_1function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_20_1(idElement){
 
@@ -3393,6 +3409,12 @@ function switch_Heb_Translit_1_20_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_20_L1_1').innerHTML == "חַיָּה"){
       document.getElementById('divNum_27_1_20_L1_1').innerHTML ="hhai'yah";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_20_L1_1').innerHTML == "wê'oph"){
+      document.getElementById('divNum_31_1_20_L1_1').innerHTML ="וְּעוֹף";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_20_L1_1').innerHTML == "וְּעוֹף"){
+      document.getElementById('divNum_31_1_20_L1_1').innerHTML ="wê'oph";
+      return false;}
 
 } //End of switch_Heb_Translit_1_20_2function
 
@@ -3400,12 +3422,6 @@ function switch_Heb_Translit_1_20_1(idElement){
 function switch_Heb_Translit_1_20_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_20_L1_2').innerHTML == "wê'oph"){
-      document.getElementById('divNum_31_1_20_L1_2').innerHTML ="וְּעוֹף";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_20_L1_2').innerHTML == "וְּעוֹף"){
-      document.getElementById('divNum_31_1_20_L1_2').innerHTML ="wê'oph";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_20_L1_2').innerHTML == "yê'o'pheyph"){
       document.getElementById('divNum_35_1_20_L1_2').innerHTML ="יְּעוֹפֵף";
       return false;}
@@ -3497,6 +3513,12 @@ function switch_Heb_Translit_1_21_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_21_L1_1').innerHTML == "כָּל"){
       document.getElementById('divNum_27_1_21_L1_1').innerHTML ="kol";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_21_L1_1').innerHTML == "ne'phesh"){
+      document.getElementById('divNum_31_1_21_L1_1').innerHTML ="נֶפֶש";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_21_L1_1').innerHTML == "נֶפֶש"){
+      document.getElementById('divNum_31_1_21_L1_1').innerHTML ="ne'phesh";
+      return false;}
 
 } //End of switch_Heb_Translit_1_21_2function
 
@@ -3504,12 +3526,6 @@ function switch_Heb_Translit_1_21_1(idElement){
 function switch_Heb_Translit_1_21_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_21_L1_2').innerHTML == "ne'phesh"){
-      document.getElementById('divNum_31_1_21_L1_2').innerHTML ="נֶפֶש";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_21_L1_2').innerHTML == "נֶפֶש"){
-      document.getElementById('divNum_31_1_21_L1_2').innerHTML ="ne'phesh";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_21_L1_2').innerHTML == "ha'hha'yah"){
       document.getElementById('divNum_35_1_21_L1_2').innerHTML ="הַחַיָּה";
       return false;}
@@ -3552,6 +3568,12 @@ function switch_Heb_Translit_1_21_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_21_L1_2').innerHTML == "וְּאֵת"){
       document.getElementById('divNum_59_1_21_L1_2').innerHTML ="wê'eyt";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_21_L1_2').innerHTML == "kol"){
+      document.getElementById('divNum_63_1_21_L1_2').innerHTML ="כָּל";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_21_L1_2').innerHTML == "כָּל"){
+      document.getElementById('divNum_63_1_21_L1_2').innerHTML ="kol";
+      return false;}
 
 } //End of switch_Heb_Translit_1_21_3function
 
@@ -3559,12 +3581,6 @@ function switch_Heb_Translit_1_21_2(idElement){
 function switch_Heb_Translit_1_21_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_21_L1_3').innerHTML == "kol"){
-      document.getElementById('divNum_63_1_21_L1_3').innerHTML ="כָּל";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_21_L1_3').innerHTML == "כָּל"){
-      document.getElementById('divNum_63_1_21_L1_3').innerHTML ="kol";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_21_L1_3').innerHTML == "oph"){
       document.getElementById('divNum_67_1_21_L1_3').innerHTML ="עוֹף";
       return false;}
@@ -3656,6 +3672,12 @@ function switch_Heb_Translit_1_22_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_22_L1_1').innerHTML == "וּמִׁלְּאוּ"){
       document.getElementById('divNum_27_1_22_L1_1').innerHTML ="u'mil'u";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_22_L1_1').innerHTML == "et"){
+      document.getElementById('divNum_31_1_22_L1_1').innerHTML ="אֶת";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_22_L1_1').innerHTML == "אֶת"){
+      document.getElementById('divNum_31_1_22_L1_1').innerHTML ="et";
+      return false;}
 
 } //End of switch_Heb_Translit_1_22_2function
 
@@ -3663,12 +3685,6 @@ function switch_Heb_Translit_1_22_1(idElement){
 function switch_Heb_Translit_1_22_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_22_L1_2').innerHTML == "et"){
-      document.getElementById('divNum_31_1_22_L1_2').innerHTML ="אֶת";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_22_L1_2').innerHTML == "אֶת"){
-      document.getElementById('divNum_31_1_22_L1_2').innerHTML ="et";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_22_L1_2').innerHTML == "ha'ma'yim"){
       document.getElementById('divNum_35_1_22_L1_2').innerHTML ="הַמַיִׁם";
       return false;}
@@ -3742,6 +3758,9 @@ function switch_Heb_Translit_1_23_1(idElement){
     if( idElement == 23  &&  document.getElementById('divNum_23_1_23_L1_1').innerHTML == "חֲמִׁישִׁי"){
       document.getElementById('divNum_23_1_23_L1_1').innerHTML ="hha'mi'shi";
       return false;}
+
+} //End of switch_Heb_Translit_1_23_1function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_24_1(idElement){
 
@@ -3788,6 +3807,12 @@ function switch_Heb_Translit_1_24_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_24_L1_1').innerHTML == "לְּמִׁינָּהּ"){
       document.getElementById('divNum_27_1_24_L1_1').innerHTML ="lê'mi'nah";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_24_L1_1').innerHTML == "bê'hey'mah"){
+      document.getElementById('divNum_31_1_24_L1_1').innerHTML ="בְּהֵמָּה";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_24_L1_1').innerHTML == "בְּהֵמָּה"){
+      document.getElementById('divNum_31_1_24_L1_1').innerHTML ="bê'hey'mah";
+      return false;}
 
 } //End of switch_Heb_Translit_1_24_2function
 
@@ -3795,12 +3820,6 @@ function switch_Heb_Translit_1_24_1(idElement){
 function switch_Heb_Translit_1_24_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_24_L1_2').innerHTML == "bê'hey'mah"){
-      document.getElementById('divNum_31_1_24_L1_2').innerHTML ="בְּהֵמָּה";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_24_L1_2').innerHTML == "בְּהֵמָּה"){
-      document.getElementById('divNum_31_1_24_L1_2').innerHTML ="bê'hey'mah";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_24_L1_2').innerHTML == "wa're'mes"){
       document.getElementById('divNum_35_1_24_L1_2').innerHTML ="וָּרֶמֶשׂ";
       return false;}
@@ -3837,6 +3856,9 @@ function switch_Heb_Translit_1_24_2(idElement){
     if( idElement == 55  &&  document.getElementById('divNum_55_1_24_L1_2').innerHTML == "כֵן"){
       document.getElementById('divNum_55_1_24_L1_2').innerHTML ="kheyn3";
       return false;}
+
+} //End of switch_Heb_Translit_1_24_2function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_25_1(idElement){
 
@@ -3883,6 +3905,12 @@ function switch_Heb_Translit_1_25_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_25_L1_1').innerHTML == "וְּאֶת"){
       document.getElementById('divNum_27_1_25_L1_1').innerHTML ="wê'et";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_25_L1_1').innerHTML == "ha'be'hey'mah"){
+      document.getElementById('divNum_31_1_25_L1_1').innerHTML ="הַבְּהֵמָּה";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_25_L1_1').innerHTML == "הַבְּהֵמָּה"){
+      document.getElementById('divNum_31_1_25_L1_1').innerHTML ="ha'be'hey'mah";
+      return false;}
 
 } //End of switch_Heb_Translit_1_25_2function
 
@@ -3890,12 +3918,6 @@ function switch_Heb_Translit_1_25_1(idElement){
 function switch_Heb_Translit_1_25_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_25_L1_2').innerHTML == "ha'be'hey'mah"){
-      document.getElementById('divNum_31_1_25_L1_2').innerHTML ="הַבְּהֵמָּה";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_25_L1_2').innerHTML == "הַבְּהֵמָּה"){
-      document.getElementById('divNum_31_1_25_L1_2').innerHTML ="ha'be'hey'mah";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_25_L1_2').innerHTML == "lê'mi'nah"){
       document.getElementById('divNum_35_1_25_L1_2').innerHTML ="לְּמִׁינָּהּ";
       return false;}
@@ -3938,6 +3960,12 @@ function switch_Heb_Translit_1_25_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_25_L1_2').innerHTML == "וַיַרְּא"){
       document.getElementById('divNum_59_1_25_L1_2').innerHTML ="wai'yar";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_25_L1_2').innerHTML == "e'lo'him"){
+      document.getElementById('divNum_63_1_25_L1_2').innerHTML ="אֱלֹהִׁים";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_25_L1_2').innerHTML == "אֱלֹהִׁים"){
+      document.getElementById('divNum_63_1_25_L1_2').innerHTML ="e'lo'him";
+      return false;}
 
 } //End of switch_Heb_Translit_1_25_3function
 
@@ -3945,12 +3973,6 @@ function switch_Heb_Translit_1_25_2(idElement){
 function switch_Heb_Translit_1_25_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_25_L1_3').innerHTML == "e'lo'him"){
-      document.getElementById('divNum_63_1_25_L1_3').innerHTML ="אֱלֹהִׁים";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_25_L1_3').innerHTML == "אֱלֹהִׁים"){
-      document.getElementById('divNum_63_1_25_L1_3').innerHTML ="e'lo'him";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_25_L1_3').innerHTML == "ki"){
       document.getElementById('divNum_67_1_25_L1_3').innerHTML ="כִׁי";
       return false;}
@@ -3963,6 +3985,9 @@ function switch_Heb_Translit_1_25_3(idElement){
     if( idElement == 71  &&  document.getElementById('divNum_71_1_25_L1_3').innerHTML == "טוֹב"){
       document.getElementById('divNum_71_1_25_L1_3').innerHTML ="tov";
       return false;}
+
+} //End of switch_Heb_Translit_1_25_3function
+
 //functionName_cahpter_verse_line
 function switch_Heb_Translit_1_26_1(idElement){
 
@@ -4009,6 +4034,12 @@ function switch_Heb_Translit_1_26_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_26_L1_1').innerHTML == "וְּיִׁרְּדוּ"){
       document.getElementById('divNum_27_1_26_L1_1').innerHTML ="wê'yir'du";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_26_L1_1').innerHTML == "vid'gat"){
+      document.getElementById('divNum_31_1_26_L1_1').innerHTML ="בִׁדְּגַת";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_26_L1_1').innerHTML == "בִׁדְּגַת"){
+      document.getElementById('divNum_31_1_26_L1_1').innerHTML ="vid'gat";
+      return false;}
 
 } //End of switch_Heb_Translit_1_26_2function
 
@@ -4016,12 +4047,6 @@ function switch_Heb_Translit_1_26_1(idElement){
 function switch_Heb_Translit_1_26_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_26_L1_2').innerHTML == "vid'gat"){
-      document.getElementById('divNum_31_1_26_L1_2').innerHTML ="בִׁדְּגַת";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_26_L1_2').innerHTML == "בִׁדְּגַת"){
-      document.getElementById('divNum_31_1_26_L1_2').innerHTML ="vid'gat";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_26_L1_2').innerHTML == "hai'yam"){
       document.getElementById('divNum_35_1_26_L1_2').innerHTML ="הַיָּם";
       return false;}
@@ -4064,6 +4089,12 @@ function switch_Heb_Translit_1_26_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_26_L1_2').innerHTML == "וּבְּכָּל"){
       document.getElementById('divNum_59_1_26_L1_2').innerHTML ="uv'khol";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_26_L1_2').innerHTML == "ha're'mes"){
+      document.getElementById('divNum_63_1_26_L1_2').innerHTML ="הָּרֶמֶשׂ";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_26_L1_2').innerHTML == "הָּרֶמֶשׂ"){
+      document.getElementById('divNum_63_1_26_L1_2').innerHTML ="ha're'mes";
+      return false;}
 
 } //End of switch_Heb_Translit_1_26_3function
 
@@ -4071,12 +4102,6 @@ function switch_Heb_Translit_1_26_2(idElement){
 function switch_Heb_Translit_1_26_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_26_L1_3').innerHTML == "ha're'mes"){
-      document.getElementById('divNum_63_1_26_L1_3').innerHTML ="הָּרֶמֶשׂ";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_26_L1_3').innerHTML == "הָּרֶמֶשׂ"){
-      document.getElementById('divNum_63_1_26_L1_3').innerHTML ="ha're'mes";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_26_L1_3').innerHTML == "ha'ro'meys"){
       document.getElementById('divNum_67_1_26_L1_3').innerHTML ="הָּרֹמֵשׂ";
       return false;}
@@ -4193,6 +4218,12 @@ function switch_Heb_Translit_1_28_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_28_L1_1').innerHTML == "pê'ru"){
       document.getElementById('divNum_27_1_28_L1_1').innerHTML ="and~!(mp)~INCREASE(V)";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_28_L1_1').innerHTML == "and~!(mp)~FILL(V)"){
+      document.getElementById('divNum_31_1_28_L1_1').innerHTML ="ur'vu";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_28_L1_1').innerHTML == "ur'vu"){
+      document.getElementById('divNum_31_1_28_L1_1').innerHTML ="and~!(mp)~FILL(V)";
+      return false;}
 
 } //End of switch_Heb_Translit_1_28_2function
 
@@ -4200,12 +4231,6 @@ function switch_Heb_Translit_1_28_1(idElement){
 function switch_Heb_Translit_1_28_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_28_L1_2').innerHTML == "and~!(mp)~FILL(V)"){
-      document.getElementById('divNum_31_1_28_L1_2').innerHTML ="ur'vu";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_28_L1_2').innerHTML == "ur'vu"){
-      document.getElementById('divNum_31_1_28_L1_2').innerHTML ="and~!(mp)~FILL(V)";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_28_L1_2').innerHTML == "AT"){
       document.getElementById('divNum_35_1_28_L1_2').innerHTML ="u'mil'u";
       return false;}
@@ -4248,6 +4273,12 @@ function switch_Heb_Translit_1_28_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_28_L1_2').innerHTML == "hai'yam"){
       document.getElementById('divNum_59_1_28_L1_2').innerHTML ="and~in~FLYER";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_28_L1_2').innerHTML == "the~SKY"){
+      document.getElementById('divNum_63_1_28_L1_2').innerHTML ="uv'oph";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_28_L1_2').innerHTML == "uv'oph"){
+      document.getElementById('divNum_63_1_28_L1_2').innerHTML ="the~SKY";
+      return false;}
 
 } //End of switch_Heb_Translit_1_28_3function
 
@@ -4255,12 +4286,6 @@ function switch_Heb_Translit_1_28_2(idElement){
 function switch_Heb_Translit_1_28_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_28_L1_3').innerHTML == "the~SKY"){
-      document.getElementById('divNum_63_1_28_L1_3').innerHTML ="uv'oph";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_28_L1_3').innerHTML == "uv'oph"){
-      document.getElementById('divNum_63_1_28_L1_3').innerHTML ="the~SKY";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_28_L1_3').innerHTML == "and~in~ALL"){
       document.getElementById('divNum_67_1_28_L1_3').innerHTML ="ha'sha'ma'yim";
       return false;}
@@ -4340,6 +4365,12 @@ function switch_Heb_Translit_1_29_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_29_L1_1').innerHTML == "kol"){
       document.getElementById('divNum_27_1_29_L1_1').innerHTML ="HERB";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_29_L1_1').innerHTML == "SOW(V)"){
+      document.getElementById('divNum_31_1_29_L1_1').innerHTML ="ey'sev";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_29_L1_1').innerHTML == "ey'sev"){
+      document.getElementById('divNum_31_1_29_L1_1').innerHTML ="SOW(V)";
+      return false;}
 
 } //End of switch_Heb_Translit_1_29_2function
 
@@ -4347,12 +4378,6 @@ function switch_Heb_Translit_1_29_1(idElement){
 function switch_Heb_Translit_1_29_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_29_L1_2').innerHTML == "SOW(V)"){
-      document.getElementById('divNum_31_1_29_L1_2').innerHTML ="ey'sev";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_29_L1_2').innerHTML == "ey'sev"){
-      document.getElementById('divNum_31_1_29_L1_2').innerHTML ="SOW(V)";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_29_L1_2').innerHTML == "SEED"){
       document.getElementById('divNum_35_1_29_L1_2').innerHTML ="zo'rey'a";
       return false;}
@@ -4395,6 +4420,12 @@ function switch_Heb_Translit_1_29_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_29_L1_2').innerHTML == "ha'a'rets"){
       document.getElementById('divNum_59_1_29_L1_2').innerHTML ="and~AT";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_29_L1_2').innerHTML == "ALL"){
+      document.getElementById('divNum_63_1_29_L1_2').innerHTML ="wê'et";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_29_L1_2').innerHTML == "wê'et"){
+      document.getElementById('divNum_63_1_29_L1_2').innerHTML ="ALL";
+      return false;}
 
 } //End of switch_Heb_Translit_1_29_3function
 
@@ -4402,12 +4433,6 @@ function switch_Heb_Translit_1_29_2(idElement){
 function switch_Heb_Translit_1_29_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_29_L1_3').innerHTML == "ALL"){
-      document.getElementById('divNum_63_1_29_L1_3').innerHTML ="wê'et";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_29_L1_3').innerHTML == "wê'et"){
-      document.getElementById('divNum_63_1_29_L1_3').innerHTML ="ALL";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_29_L1_3').innerHTML == "the~TREE"){
       document.getElementById('divNum_67_1_29_L1_3').innerHTML ="kol";
       return false;}
@@ -4450,6 +4475,12 @@ function switch_Heb_Translit_1_29_3(idElement){
     if( idElement == 91  &&  document.getElementById('divNum_91_1_29_L1_3').innerHTML == "SEED"){
       document.getElementById('divNum_91_1_29_L1_3').innerHTML ="606";
       return false;}
+    if( idElement == 95  &&  document.getElementById('divNum_95_1_29_L1_3').innerHTML == "לָּכֶם"){
+      document.getElementById('divNum_95_1_29_L1_3').innerHTML ="to~you(mp)";
+      return false;}
+    if( idElement == 95  &&  document.getElementById('divNum_95_1_29_L1_3').innerHTML == "to~you(mp)"){
+      document.getElementById('divNum_95_1_29_L1_3').innerHTML ="לָּכֶם";
+      return false;}
 
 } //End of switch_Heb_Translit_1_29_4function
 
@@ -4457,12 +4488,6 @@ function switch_Heb_Translit_1_29_3(idElement){
 function switch_Heb_Translit_1_29_4(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 95  &&  document.getElementById('divNum_95_1_29_L1_4').innerHTML == "לָּכֶם"){
-      document.getElementById('divNum_95_1_29_L1_4').innerHTML ="to~you(mp)";
-      return false;}
-    if( idElement == 95  &&  document.getElementById('divNum_95_1_29_L1_4').innerHTML == "to~you(mp)"){
-      document.getElementById('divNum_95_1_29_L1_4').innerHTML ="לָּכֶם";
-      return false;}
     if( idElement == 99  &&  document.getElementById('divNum_99_1_29_L1_4').innerHTML == "יִׁהְּיֶה"){
       document.getElementById('divNum_99_1_29_L1_4').innerHTML ="505";
       return false;}
@@ -4524,6 +4549,12 @@ function switch_Heb_Translit_1_30_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_30_L1_1').innerHTML == "וּלְּכֹל"){
       document.getElementById('divNum_27_1_30_L1_1').innerHTML ="ul'khol";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_30_L1_1').innerHTML == "ro'meys"){
+      document.getElementById('divNum_31_1_30_L1_1').innerHTML ="רוֹמֵשׂ";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_30_L1_1').innerHTML == "רוֹמֵשׂ"){
+      document.getElementById('divNum_31_1_30_L1_1').innerHTML ="ro'meys";
+      return false;}
 
 } //End of switch_Heb_Translit_1_30_2function
 
@@ -4531,12 +4562,6 @@ function switch_Heb_Translit_1_30_1(idElement){
 function switch_Heb_Translit_1_30_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_30_L1_2').innerHTML == "ro'meys"){
-      document.getElementById('divNum_31_1_30_L1_2').innerHTML ="רוֹמֵשׂ";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_30_L1_2').innerHTML == "רוֹמֵשׂ"){
-      document.getElementById('divNum_31_1_30_L1_2').innerHTML ="ro'meys";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_30_L1_2').innerHTML == "al"){
       document.getElementById('divNum_35_1_30_L1_2').innerHTML ="עַל";
       return false;}
@@ -4579,6 +4604,12 @@ function switch_Heb_Translit_1_30_2(idElement){
     if( idElement == 59  &&  document.getElementById('divNum_59_1_30_L1_2').innerHTML == "et"){
       document.getElementById('divNum_59_1_30_L1_2').innerHTML ="ALL";
       return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_30_L1_2').innerHTML == "GREEN"){
+      document.getElementById('divNum_63_1_30_L1_2').innerHTML ="kol";
+      return false;}
+    if( idElement == 63  &&  document.getElementById('divNum_63_1_30_L1_2').innerHTML == "kol"){
+      document.getElementById('divNum_63_1_30_L1_2').innerHTML ="GREEN";
+      return false;}
 
 } //End of switch_Heb_Translit_1_30_3function
 
@@ -4586,12 +4617,6 @@ function switch_Heb_Translit_1_30_2(idElement){
 function switch_Heb_Translit_1_30_3(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_30_L1_3').innerHTML == "GREEN"){
-      document.getElementById('divNum_63_1_30_L1_3').innerHTML ="kol";
-      return false;}
-    if( idElement == 63  &&  document.getElementById('divNum_63_1_30_L1_3').innerHTML == "kol"){
-      document.getElementById('divNum_63_1_30_L1_3').innerHTML ="GREEN";
-      return false;}
     if( idElement == 67  &&  document.getElementById('divNum_67_1_30_L1_3').innerHTML == "HERB"){
       document.getElementById('divNum_67_1_30_L1_3').innerHTML ="ye'req";
       return false;}
@@ -4665,6 +4690,12 @@ function switch_Heb_Translit_1_31_1(idElement){
     if( idElement == 27  &&  document.getElementById('divNum_27_1_31_L1_1').innerHTML == "וְּהִׁנֵה"){
       document.getElementById('divNum_27_1_31_L1_1').innerHTML ="wê'hin'neyh";
       return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_31_L1_1').innerHTML == "tov"){
+      document.getElementById('divNum_31_1_31_L1_1').innerHTML ="טוֹב";
+      return false;}
+    if( idElement == 31  &&  document.getElementById('divNum_31_1_31_L1_1').innerHTML == "טוֹב"){
+      document.getElementById('divNum_31_1_31_L1_1').innerHTML ="tov";
+      return false;}
 
 } //End of switch_Heb_Translit_1_31_2function
 
@@ -4672,12 +4703,6 @@ function switch_Heb_Translit_1_31_1(idElement){
 function switch_Heb_Translit_1_31_2(idElement){
 
 	//1_Transliteration-->Heb 2_Heb_Transliteration
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_31_L1_2').innerHTML == "tov"){
-      document.getElementById('divNum_31_1_31_L1_2').innerHTML ="טוֹב";
-      return false;}
-    if( idElement == 31  &&  document.getElementById('divNum_31_1_31_L1_2').innerHTML == "טוֹב"){
-      document.getElementById('divNum_31_1_31_L1_2').innerHTML ="tov";
-      return false;}
     if( idElement == 35  &&  document.getElementById('divNum_35_1_31_L1_2').innerHTML == "mê'od"){
       document.getElementById('divNum_35_1_31_L1_2').innerHTML ="מְּאֹד";
       return false;}
@@ -4867,6 +4892,9 @@ function switch_Eng_AHL_1_2_2(idElement){
     if( idElement == 54  &&  document.getElementById('divNum_54_1_2_L1_2').innerHTML == "the~WATER"){
       document.getElementById('divNum_54_1_2_L1_2').innerHTML ="1162~s2";
       return false;}
+
+} //End of switch_Eng_AHL_1_2_2function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_3_1(idElement){
 
@@ -4907,6 +4935,9 @@ function switch_Eng_AHL_1_3_1(idElement){
     if( idElement == 22  &&  document.getElementById('divNum_22_1_3_L1_1').innerHTML == "LIGHT"){
       document.getElementById('divNum_22_1_3_L1_1').innerHTML ="73";
       return false;}
+
+} //End of switch_Eng_AHL_1_3_1function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_4_1(idElement){
 
@@ -4990,6 +5021,9 @@ function switch_Eng_AHL_1_4_2(idElement){
     if( idElement == 46  &&  document.getElementById('divNum_46_1_4_L1_2').innerHTML == "the~DARKNESS"){
       document.getElementById('divNum_46_1_4_L1_2').innerHTML ="2439";
       return false;}
+
+} //End of switch_Eng_AHL_1_4_2function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_5_1(idElement){
 
@@ -5356,6 +5390,9 @@ function switch_Eng_AHL_1_8_2(idElement){
     if( idElement == 38  &&  document.getElementById('divNum_38_1_8_L1_2').innerHTML == "SECOND"){
       document.getElementById('divNum_38_1_8_L1_2').innerHTML ="2541";
       return false;}
+
+} //End of switch_Eng_AHL_1_8_2function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_9_1(idElement){
 
@@ -5844,6 +5881,9 @@ function switch_Eng_AHL_1_13_1(idElement){
     if( idElement == 22  &&  document.getElementById('divNum_22_1_13_L1_1').innerHTML == "THIRD"){
       document.getElementById('divNum_22_1_13_L1_1').innerHTML ="2499";
       return false;}
+
+} //End of switch_Eng_AHL_1_13_1function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_14_1(idElement){
 
@@ -5954,10 +5994,6 @@ function switch_Eng_AHL_1_14_2(idElement){
 
 } //End of switch_Eng_AHL_1_14_3function
 
-//functionName_cahpter_verse_line
-function switch_Eng_AHL_1_14_3(idElement){
-
-	//1_AHL-->ENG 2_ENG_AHL
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_15_1(idElement){
 
@@ -6152,6 +6188,9 @@ function switch_Eng_AHL_1_16_3(idElement){
     if( idElement == 70  &&  document.getElementById('divNum_70_1_16_L1_3').innerHTML == "the~STAR"){
       document.getElementById('divNum_70_1_16_L1_3').innerHTML ="923~s";
       return false;}
+
+} //End of switch_Eng_AHL_1_16_3function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_17_1(idElement){
 
@@ -6207,10 +6246,6 @@ function switch_Eng_AHL_1_17_1(idElement){
 
 } //End of switch_Eng_AHL_1_17_2function
 
-//functionName_cahpter_verse_line
-function switch_Eng_AHL_1_17_2(idElement){
-
-	//1_AHL-->ENG 2_ENG_AHL
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_18_1(idElement){
 
@@ -6294,6 +6329,9 @@ function switch_Eng_AHL_1_18_2(idElement){
     if( idElement == 46  &&  document.getElementById('divNum_46_1_18_L1_2').innerHTML == "FUNCTIONAL"){
       document.getElementById('divNum_46_1_18_L1_2').innerHTML ="848";
       return false;}
+
+} //End of switch_Eng_AHL_1_18_2function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_19_1(idElement){
 
@@ -6334,6 +6372,9 @@ function switch_Eng_AHL_1_19_1(idElement){
     if( idElement == 22  &&  document.getElementById('divNum_22_1_19_L1_1').innerHTML == "FOURTH"){
       document.getElementById('divNum_22_1_19_L1_1').innerHTML ="2214";
       return false;}
+
+} //End of switch_Eng_AHL_1_19_1function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_20_1(idElement){
 
@@ -6729,6 +6770,9 @@ function switch_Eng_AHL_1_23_1(idElement){
     if( idElement == 22  &&  document.getElementById('divNum_22_1_23_L1_1').innerHTML == "FIFTH"){
       document.getElementById('divNum_22_1_23_L1_1').innerHTML ="1271";
       return false;}
+
+} //End of switch_Eng_AHL_1_23_1function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_24_1(idElement){
 
@@ -6824,6 +6868,9 @@ function switch_Eng_AHL_1_24_2(idElement){
     if( idElement == 54  &&  document.getElementById('divNum_54_1_24_L1_2').innerHTML == "SO"){
       document.getElementById('divNum_54_1_24_L1_2').innerHTML ="968";
       return false;}
+
+} //End of switch_Eng_AHL_1_24_2function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_25_1(idElement){
 
@@ -6950,6 +6997,9 @@ function switch_Eng_AHL_1_25_3(idElement){
     if( idElement == 70  &&  document.getElementById('divNum_70_1_25_L1_3').innerHTML == "FUNCTIONAL"){
       document.getElementById('divNum_70_1_25_L1_3').innerHTML ="848";
       return false;}
+
+} //End of switch_Eng_AHL_1_25_3function
+
 //functionName_cahpter_verse_line
 function switch_Eng_AHL_1_26_1(idElement){
 
