@@ -82,8 +82,8 @@ def lang2_newVerse( write_file, chapter_verse ):
 	write_file.write("""		<div class="""+'"'+eight_w_verses_newV2+""""><strong>{"""+chapter_verse+"""}</strong></div>"""+"\n")
 
 def changeWord2( write_file, index, chapter_verse, line, lang1_or_lang2, word):
-	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+""""
-			onclick="javascript:"""+switchL_funcName2+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+'"'+word+""""</div>"""+"\n")
+	write_file.write("""		<div id="divNum_"""+index+"_"+chapter_verse+"_"+lang1_or_lang2+"_"+line+""""
+			onclick="javascript:"""+switchL_funcName2+chapter_verse+"_"+line+"""("""+str(index)+"""); return false;">"""+word+"""</div>"""+"\n")
 
 def w_tail( write_file ):
 	write_file.write("""\n\n	<A NAME="32"> </A>

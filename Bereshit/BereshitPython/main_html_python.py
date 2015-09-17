@@ -94,7 +94,7 @@ for index, var_list in enumerate(lines_list):
 
 		#Print divs for Eng words
 		if index3%4 == 1 and index3 != 0: 
-			main_html_functions.changeWord( write_file, str(index3), chapter_verse, str(line), language, word)
+			main_html_functions.changeWord2( write_file, str(index3), chapter_verse, str(line), language, word)
 
 		# line number: Lines should start at 1
 		# We are on a new line

@@ -270,7 +270,7 @@ for index, var_list in enumerate(lines_list):
 	word_list = var_list.split()
 
 	line = 0
-	language = L1
+	language = L2
 
 	##################################################################################
 	# One function per line. Each for loop writes functions for an entire verse
@@ -287,9 +287,9 @@ for index, var_list in enumerate(lines_list):
 
 		#Write the word replace if statments, inside the function
 		if index%4 == 2 and index != 0:# Hebrew: --> index + 1 = Translit 		#2				  #1
-			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index), chapter_verse, str(line), language )
+			main_js_functions.dynamic_word_replace( write_file, word_list[index], word_list[index-1], str(index - 1), chapter_verse, str(line), language )
 																#1					#2
-			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index), chapter_verse, str(line), language )
+			main_js_functions.dynamic_word_replace( write_file, word_list[index-1], word_list[index], str(index - 1), chapter_verse, str(line), language )
 
 		# line number: Lines should start at 1
 		# We are on a new line
