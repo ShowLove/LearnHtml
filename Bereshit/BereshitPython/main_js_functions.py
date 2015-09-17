@@ -91,7 +91,7 @@ def changeChapterLang_condition1( write_file ):
 ####################
 #first 3 parameters are ID NUM
 def change_word( write_file, index, chapter_verse, line, lang1_or_lang2, replacement_word ):
-	write_file.write("""      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+line+lang1_or_lang2+"""').innerHTML ="""+'"'+replacement_word+"""";"""+"\n")
+	write_file.write("""      document.getElementById('divNum_"""+index+"_"+chapter_verse+"_"+lang1_or_lang2+"_"+line+"""').innerHTML ="""+'"'+replacement_word+"""";"""+"\n")
 
 def changeChapterLang_condition1n2_end( write_file ):  
     write_file.write("""	return false;}"""+"\n\n")

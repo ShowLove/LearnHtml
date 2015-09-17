@@ -68,8 +68,7 @@ for index, var_list in enumerate(lines_list):
 			language = L1
 			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
 		if index%4 == 1: #English
-			language = L2
-			main_js_functions
+			language = L2 								#weWant Heb indx
 			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
 	#exit inner for loop		
 
@@ -130,8 +129,11 @@ for index, var_list in enumerate(lines_list):
 			line = line + 1
 		# language
 		if index%4 == 0: #Hebrew
-			language = L1
-			main_js_functions.change_word( write_file, str(index), chapter_verse, str(line), language, word )
+			heb_Index = index - 1
+			if heb_Index < 0:
+				heb_Index = 0
+			language = L1 								
+			main_js_functions.change_word( write_file, str(heb_Index), chapter_verse, str(line), language, word )
 		if index%4 == 1: #English
 			language = L2
 			main_js_functions
