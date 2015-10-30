@@ -1,6 +1,21 @@
+
+1. something wrong in switch_Heb_Translit_1_14_3
+	1.	Both out_main_html.html and out_main_js.js have errors on 1:14 line 3
+	2. 	There is 16 words in that verse
+	3.	It get's stuck on ul'ya'mim on javascript, ("15th word"). 
+		Then it writes switch_Heb_Translit_1_14_3 for remaining two words
+		1. it ended the function, started a new one for 16th word and didn't end it	
+	4.	It gets stuck on וְּשָּנִׁים on html ("16th last word"). then it writes a bad div
+	5. 	It's not printing out exactly 8 words and I think thats the problem
+
+
+
+
+///////////Thoughts Version 1////////////////////////////////
+
 Main problems with output of my code
 	A.	None of the js is working
-	1.	The chapter and verse doesn't show up
+	1.	##fixed## The chapter and verse doesn't show up
 	2.	There isn't an orderly heb-->eng-->heb--> structure as expected
 		A.	This is obvious in the code. I'm writting a loop for the hebrew verse and a loop for the english verse.
 	##fixed kind of##3. 	The Divs dont stay all the way to the right .. wtf?
