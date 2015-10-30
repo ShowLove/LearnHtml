@@ -1,3 +1,5 @@
+replace 	in~him --> 		in~him 0000
+			to~you(mp)-->	to~you(mp) 0001
 The Mechanical Translation of the Torah
 The Book of Genesis
 Translation by

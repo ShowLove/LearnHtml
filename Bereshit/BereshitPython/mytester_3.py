@@ -45,10 +45,23 @@ for index, var_list in enumerate(lines_list):
 	num_w_last_chunk = len(verse_chunks[num_lines_in_verse - 1])			#size of chunk
 	#print verse_chunks[ num_lines_in_verse - 1][ num_w_last_chunk - 1]
 
-	#prints each line: We print 8 lines at a time
+	print verse_chunks[0][0]
+
+	#prints each line completely without if statement: We print 8 words in a line
 	for lineIndex in range(num_lines_in_verse):
+
 		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
-			print verse_chunks[lineIndex][chunksIndex] + ",",
+			# Condition for Hebrew
+			if chunksIndex%4 == 3 and chunksIndex != 0: #Print hebrew words
+				print verse_chunks[lineIndex][chunksIndex] + ",",
+
+		print "\n\n",
+
+		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
+			# Condition for Eng
+			if chunksIndex%4 == 1 and chunksIndex != 0: #Print Eng words
+				print verse_chunks[lineIndex][chunksIndex] + ",",
+
 		print "\n\n",
 
 
