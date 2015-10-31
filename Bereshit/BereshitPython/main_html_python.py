@@ -32,91 +32,77 @@ for index, var_list in enumerate(lines_list):
 	#tric for splitin a string to a list of words
 	word_list = var_list.split()
 
-	line = 0
-	language = L1
+	#Double list: row( new line ) column( words 1-8 )
+	verse_chunks =[word_list[x:x+32] for x in xrange(0, len(word_list), 32)]
 
-	##################################################################################
-	# 7 words per Div/Line. Each for loop writes functions for an entire verse
-	# This For loop should be doing the Hebrew part
-	#################################################################################
-	for index2, word in enumerate(word_list):
+	#Finds last word in verse
+	num_lines_in_verse = len(verse_chunks)									#number of chunks								
+	num_w_last_chunk = len(verse_chunks[num_lines_in_verse - 1])			#size of chunk
+	#print verse_chunks[ num_lines_in_verse - 1][ num_w_last_chunk - 1]		#DEBUG
 
-		#Break if we find bad data
-		if word.isdigit():
-			if int(word) < 8 and index2%4 != 2:	# AHL on 2 bad data would be on 1
-				break
-		#we found a new verse
-		if ':' in word:
-			chapter_verse = main_html_functions.remColon( word )
+	#Print verse in lines of 8, HEB then ENG.
+	for lineIndex in range(num_lines_in_verse):
 
-		# write the divs for each word
-		if index2%4 == 3 and index2 != 0: #Print divs for hebrew words
-			main_html_functions.changeWord( write_file, str(index2), chapter_verse, str(line), language, word)
+		#setup code
+		chapter_verse = main_html_functions.remColon( verse_chunks[0][0] )
+		language = L1
 
-		# line number: Lines should start at 1
-		# We are on a new line
-		if index2%32 == 0:
-			line = line + 1
-			# If !firstLine write end to previous line 
-			if index2 != 0:
-				main_html_functions.end_lang1_2_divWrapper( write_file )
+		#beginning of hebrew divs
+		main_html_functions.lang1_header( write_file )
 
-			#If we have no words left theres no use in writing headers
-			#index starts at 0 but len !zero_index
-			if (index2+1) < len(word_list):
-				main_html_functions.lang1_header( write_file )
-				#We want to highlight the first verse
-				if index2 == 0:
-					main_html_functions.lang1_newVerse( write_file, word_list[0] )
+		#Hebrew for loop
+		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
 
+			word = verse_chunks[lineIndex][chunksIndex]
 
-	#exit inner for loop
-	#Last line did NOT have exactly 8 words
-	if index2%32 != 0:
+			#Break if we find bad data
+			if word.isdigit():								#DEBUG ERROR! CHANGE in~him 0000...
+				if int(word) < 8 and chunksIndex%4 != 2:	# AHL on 2 bad data would be on 1
+					break
+
+			#We want to highlight the first verse
+			if chunksIndex == 0  and lineIndex == 0:
+				main_html_functions.lang1_newVerse( write_file, verse_chunks[0][0] )
+
+			#write divs
+			if chunksIndex%4 == 3 and chunksIndex != 0: #Print hebrew words
+				main_html_functions.changeWord( write_file, str(chunksIndex), chapter_verse, str(lineIndex), language, word)
+				#print verse_chunks[lineIndex][chunksIndex] + ",",	#DEBUG
+
+		#end of heb divs
 		main_html_functions.end_lang1_2_divWrapper( write_file )
 
-	line = 0
-	language = L2
+		#print "\n\n",	#DEBUG########################################################
 
-	##################################################################################
-	# 7 words per Div/Line. Each for loop writes functions for an entire verse
-	# This For loop should be doing the English part
-	#################################################################################
-	for index3, word in enumerate(word_list):
+		language = L2
 
-		#Break if we find bad data
-		if word.isdigit():
-			if int(word) < 8 and index3%4 != 2:	# AHL on 2 bad data would be on 1
-				break
-		#we found a new verse
-		if ':' in word:
-			chapter_verse = main_html_functions.remColon( word )
+		#beginning of hebrew divs
+		main_html_functions.lang2_header( write_file )
 
-		#Print divs for Eng words
-		if index3%4 == 1 and index3 != 0: 
-			main_html_functions.changeWord2( write_file, str(index3), chapter_verse, str(line), language, word)
+		#English for loop
+		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
 
-		# line number: Lines should start at 1
-		# We are on a new line
-		if index3%32 == 0:
-			line = line + 1
-			# If !firstLine write end to previous line 
-			if index3 != 0:
-				main_html_functions.end_lang1_2_divWrapper( write_file )
+			word = verse_chunks[lineIndex][chunksIndex]
 
-			#If we have no words left theres no use in writing headers
-			#index starts at 0 but len !zero_index
-			if (index3+1) < len(word_list):
-				main_html_functions.lang2_header( write_file,  )
-				#We want to highlight the first verse
-				if index3 == 0:
-					main_html_functions.lang2_newVerse( write_file, word_list[0] )
+			#Break if we find bad data
+			if word.isdigit():								#DEBUG ERROR! CHANGE in~him 0000...
+				if int(word) < 8 and chunksIndex%4 != 2:	# AHL on 2 bad data would be on 1
+					break
 
+			#We want to highlight the first verse
+			if chunksIndex == 0  and lineIndex == 0:
+				main_html_functions.lang2_newVerse( write_file, verse_chunks[0][0] )
 
-	#exit inner for loop
-	#Last line did NOT have exactly 8 words
-	if index3%32 != 0:
+			#write divs
+			if chunksIndex%4 == 1 and chunksIndex != 0: #Print Eng words
+				main_html_functions.changeWord( write_file, str(chunksIndex), chapter_verse, str(lineIndex), language, word)
+				#print verse_chunks[lineIndex][chunksIndex] + ",",	#DEBUG
+
+		#end of heb divs
 		main_html_functions.end_lang1_2_divWrapper( write_file )
+
+		#print "\n\n",	#DEBUG
+
 
 
 # Close the FILE object in PYTHON
