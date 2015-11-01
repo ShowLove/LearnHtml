@@ -19,6 +19,8 @@ input_file.close()
 # The OPEN function returns a file object
 write_file = open("/Users/carlosgarzon/Desktop/Projects/LearnHtml/Bereshit/BereshitPython/out_main_html.html","w")
 
+write_file.write(""" <!--div id index, chapter_vers, Language, line -->\n """)
+
 #Writess the top portion of html code
 main_html_functions.header( write_file )
 
@@ -53,6 +55,8 @@ for index, var_list in enumerate(lines_list):
 		#Hebrew for loop
 		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
 
+			language = L1
+
 			word = verse_chunks[lineIndex][chunksIndex]
 
 			#Break if we find bad data
@@ -66,7 +70,7 @@ for index, var_list in enumerate(lines_list):
 
 			#write divs
 			if chunksIndex%4 == 3 and chunksIndex != 0: #Print hebrew words
-				main_html_functions.changeWord( write_file, str(chunksIndex), chapter_verse, str(lineIndex), language, word)
+				main_html_functions.changeWord( write_file, str(lineIndex*32 + chunksIndex), chapter_verse, str(lineIndex + 1), language, word)
 				#print verse_chunks[lineIndex][chunksIndex] + ",",	#DEBUG
 
 		#end of heb divs
@@ -74,13 +78,13 @@ for index, var_list in enumerate(lines_list):
 
 		#print "\n\n",	#DEBUG########################################################
 
-		language = L2
-
 		#beginning of hebrew divs
 		main_html_functions.lang2_header( write_file )
 
 		#English for loop
 		for chunksIndex in range( len(verse_chunks[lineIndex]) ):
+
+			language = L2
 
 			word = verse_chunks[lineIndex][chunksIndex]
 
@@ -95,7 +99,7 @@ for index, var_list in enumerate(lines_list):
 
 			#write divs
 			if chunksIndex%4 == 1 and chunksIndex != 0: #Print Eng words
-				main_html_functions.changeWord( write_file, str(chunksIndex), chapter_verse, str(lineIndex), language, word)
+				main_html_functions.changeWord2( write_file, str(lineIndex*32 + chunksIndex), chapter_verse, str(lineIndex + 1), language, word)
 				#print verse_chunks[lineIndex][chunksIndex] + ",",	#DEBUG
 
 		#end of heb divs
