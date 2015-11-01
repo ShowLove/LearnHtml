@@ -48,8 +48,7 @@ def header( write_file ):
 </HEAD>
 <BODY>
 	<div class="""+'"'+dynamicButton+"""" style="width:100%; float:right;">
-		<div onclick="javascript:changeChapterLang(1); return false;">עברית</div>
-		<div onclick="javascript:changeChapterLang(2); return false;">Transliteration</div>
+		<div onclick="javascript:changeChapterLang(1); return false;">   ( איפוס עברית )/( ENG RESET )</div>
 	</div>
 
 	<H1 ALIGN="CENTER">בְּרֵאשִׁית</H1>
